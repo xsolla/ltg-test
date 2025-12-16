@@ -7,7 +7,7 @@ import { logPostMessage } from '@/utils/postmessage-logger'
 export default defineNuxtPlugin((nuxtApp) => {
 	const config = nuxtApp.$config.public
 	const route = useRoute();
-	const showMetaframe = Boolean(config.SHOW_METAFRAME);
+	const showMetaframe = true;
 	const disableMetaframe = route.path === '/sign-in' || route.path.includes("/metaframe/");
 	console.log('showMetaframe', showMetaframe);
 	if (showMetaframe && !disableMetaframe && !isElectron()) {
