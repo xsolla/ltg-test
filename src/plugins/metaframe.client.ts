@@ -20,9 +20,9 @@ export default defineNuxtPlugin((nuxtApp) => {
 
 		metaframeScript.onload = () => {
 			window.metaframe.create({
-				loginProjectId: config.LOGIN_PROJECT_ID,
-				merchantId: Number(config.MERCHANT_ID),
-				projectId: Number(config.METAFRAME_PROJECT_ID),
+				loginProjectId: 'b9ae8680-f664-41ce-9c19-5adf5c0044b7',
+				merchantId: Number('321365'),
+				projectId: Number('202099'),
 				isMobile: mobile.value,
 			});
 		};
