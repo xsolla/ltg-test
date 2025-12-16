@@ -25,7 +25,7 @@ const { handleDownloadPageNavigation } = useLauncherDownload();
 useHead({
 	script: [
 		{
-			src: 'http://127.0.0.1:8080/client-sdk/portal-sdk.js',
+			src: 'https://games-portal-stage-2025-12-16-03.nl-k8s-stage.srv.local/client-sdk/portal-sdk.js',
 			async: true,
 			defer: true
 		}
