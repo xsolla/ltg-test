@@ -9,7 +9,9 @@ export default defineNuxtPlugin((nuxtApp) => {
 	const route = useRoute();
 	const showMetaframe = Boolean(config.SHOW_METAFRAME);
 	const disableMetaframe = route.path === '/sign-in' || route.path.includes("/metaframe/");
+	console.log('showMetaframe', showMetaframe);
 	if (showMetaframe && !disableMetaframe && !isElectron()) {
+		console.log('showMetaframe2', showMetaframe);
 		const metaframeScript = document.createElement('script');
 
 		metaframeScript.src = `https://cdn.xsolla.net/metaframe-web-wallet-widget-prod/container/${config.METAFRAME_VERSION}/metaframe.js`;
