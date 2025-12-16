@@ -1,0 +1,13 @@
+<script>
+export default {
+    name: 'IconTwitch',
+};
+</script>
+<template>
+  <svg width="39" height="46" viewBox="0 0 39 46" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.14804 0L0 8.2299V37.8609H9.72118V46L17.7916 37.8609H24.5766L38.7712 23.0463V0H8.14804ZM9.72118 4.05701H34.913V21.7217L28.6998 28.1577H22.3162L16.0177 34.5396V28.1577H9.72118V4.05701ZM19.1679 10.5413V20.1151H22.3162V10.5413H19.1679ZM27.0395 10.5413V20.1151H30.1877V10.5413H27.0395Z"/>
+  </svg>
+</template>
+<style scoped>
+
+</style>

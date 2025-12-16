@@ -1,0 +1,286 @@
+{
+	"common": {
+		"404": "未找到網頁",
+		"500": "請稍後再試或聯繫技術支援",
+		"close": "關閉",
+		"back": "上一步",
+		"next": "下一步",
+		"somethingWentWrong": "出錯了",
+		"oops": "哎呀……",
+		"haveToLogIn": "必須先登入"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "隱私政策確認",
+		"desc": "透過勾選這些複選框，即表示你確認已閱讀並理解服務條款和LTG隱私政策的全部內容。",
+		"privacyAndCookiesPolicy": "隱私和Cookie政策",
+		"termsOfService": "服務條款",
+		"submit": "確定"
+	},
+	"cookies": {
+		"message": "我們在本網站上使用Cookie來提升你的使用者體驗。有關使用的所有Cookie的完整概述，請參閱你的個人設定。",
+		"customize": "自訂",
+		"accept": "接受",
+		"decline": "拒絕"
+	},
+	"menu": {
+		"home": "首頁",
+		"games": "遊戲",
+		"news": "新聞",
+		"forum": "論壇",
+		"support": "支援",
+		"login": "登錄",
+		"download": "立即下載",
+		"profile": "簡介",
+		"logout": "登出"
+	},
+	"footer": {
+		"allRightsReserved": "版權所有.",
+		"termsOfService": "服務條款",
+		"privacyAndCookiesPolicy": "隱私和Cookie政策",
+		"aboutLongTaleGames": "關於LTG"
+	},
+	"auth": {
+		"title": "授權",
+		"desc": "使用Xsolla帳戶進行授權是一種簡單而安全的方式來進入LTG。你的個人資料必將得到妥善保管！",
+		"tip": "有關Xsolla帳戶的更多資訊，請參閱用戶導覽。",
+		"guide": "使用者導覽"
+	},
+	"news": {
+		"showMore": "顯示更多",
+		"readMore": "閱讀更多",
+		"allNews": "所有新聞",
+		"relatedNews": "相關新聞"
+	},
+	"paymentSuccess": {
+		"title": "成功付款頁面",
+		"desc": "請稍候"
+	},
+	"techWorks": {
+		"title": "維護中"
+	},
+	"gift": {
+		"loading": {
+			"title": "打開你的禮物",
+			"desc": "請等待禮品連結應用生效"
+		},
+		"received": {
+			"title": "準備就緒",
+			"desc": "你已收到禮物"
+		},
+		"autoDownloadLauncher": {
+			"title": "準備就緒",
+			"desc": "請打開已下載的文件並享受遊戲！<br/> 如果下載未啟動，請<a href=\"/?autoDownloadLauncher=true\"><u>重試</u></a>"
+		}
+	},
+	"access": {
+		"title": "存取頁面"
+	},
+	"game": {
+		"shareToGetReward": "分享以獲得獎勵",
+		"shareEllipsis": "分享",
+		"shareToRewardMoreVariants": "其他",
+		"shareByCopyLink": "複製連結",
+		"learnMore": "了解更多",
+		"website": "網站",
+		"subscribe": "訂閱",
+		"gift": "饋贈好友",
+		"buy": "立即購買",
+		"play": "立即遊玩",
+		"dashboard": "儀表板",
+		"download": "下載",
+		"sale": "促銷",
+		"release": "上市日期",
+		"modifications": "修改",
+		"genre": "類型",
+		"languages": "語言",
+		"platform": "平台",
+		"developer": "開發人員",
+		"cloud": "雲端",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "系統要求",
+			"minimal": "最低",
+			"recommended": "推薦",
+			"os": "操作系統",
+			"cpu": "中央處理器",
+			"ram": "中央處理器",
+			"gpu": "圖形處理器",
+			"directx": "DirectX",
+			"network": "连接形式",
+			"storage": "儲存"
+		},
+		"news": "新聞",
+		"showMore": "顯示更多",
+		"screenshots": "螢幕擷取畫面",
+		"videos": "影片",
+		"modifier": "修改",
+		"firstDays": "前{qty}天",
+		"firstMonth": "第一個月",
+		"month": "每月",
+		"then": "之後",
+		"activateTrial": "啟用試玩",
+		"firstMonths": "首 {qty} 個月",
+		"nextMonths": "接下來的 {qty} 個月",
+		"promocodeApplied": "促銷代碼已應用！",
+		"changePromocode": "更改代碼",
+		"selectPromocode": "選擇促銷代碼",
+		"promocodeNotSelected": "未選擇"
+	},
+	"home": {
+		"games": {
+			"title": "遊戲"
+		},
+		"sliders": {
+			"learnMore": "了解更多",
+			"downloadNow": "立即下載"
+		},
+		"news": {
+			"title": "新聞",
+			"moreNews": "更多新聞"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "優惠碼",
+		"personalInfo": "個人資訊",
+		"myGames": "我的遊戲"
+	},
+	"personalInfo": {
+		"mergeAccount": "合併Long Tale Games帳戶"
+	},
+	"subscription": {
+		"expirationDate": "截止日期",
+		"canceled": "已取消",
+		"unsubscribe": "取消訂閱",
+		"confirmUnsubscribe": {
+			"submit": "停止訂閱",
+			"title": "你確定嗎？"
+		},
+		"currentSubscription": "目前訂閱",
+		"subscriptionGift": "訂閱禮物",
+		"friendEmail": "朋友電子郵件",
+		"subscription": "訂閱",
+		"playerNotFound": "未找到玩家",
+		"enterEmail": "輸入電子郵件"
+	},
+	"promocodes": {
+		"title": "輸入優惠碼",
+		"desc": "你可以在此啟用新的優惠碼，或查看你帳戶中已啟用優惠碼的歷史記錄",
+		"activate": "啟用",
+		"inProcess": "處理中",
+		"received": "已收到",
+		"activated": "已啟用",
+		"messages": {
+			"invalid": "優惠碼無效。請稍後再試或聯繫客服",
+			"limited": "你已經使用過此優惠碼",
+			"alreadyUsed": "這個優惠碼已經被使用過了",
+			"internalError": "在使用此優惠碼時出了問題。請稍後再試或聯繫客服",
+			"alreadyHaveTrial": "你只能啟用一次試玩期",
+			"applied": "優惠碼已成功使用"
+		},
+		"loadMore": "載入更多"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "獨立遊戲",
+		"action": "動作遊戲",
+		"rpg": "角色扮演遊戲",
+		"simulation": "模擬遊戲",
+		"action-adventure": "動作冒險遊戲",
+		"adventure": "冒險遊戲",
+		"puzzle": "益智遊戲",
+		"strategy": "策略遊戲",
+		"sports": "運動類遊戲",
+		"mmo": "大型多人線上角色扮演遊戲",
+		"horror": "恐怖類遊戲",
+		"casino": "賭場類遊戲",
+		"casual": "休閒類遊戲"
+	},
+	"ban": {
+		"title": "用戶封鎖確認",
+		"permanent": "你已被永久封鎖",
+		"until": "你被封鎖直至",
+		"selectError": "你必須至少選取一項",
+		"tip": "你必須停止犯錯",
+		"submit": "確定"
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "變更訂閱計畫",
+		"contactSupport": "聯絡支援",
+		"toSupport": "support",
+		"subscriptionChangeDescription": "如要變更訂閱計畫，請聯絡支援。",
+		"currentSubscriptionDescription": "你目前擁有{title}。它將於{endsOn}結束。",
+		"back": "返回",
+		"changePlan": "變更計畫",
+		"subscribe": "訂閱",
+		"activated": "已啟用",
+		"totalPrice": "總價",
+		"perMonth": "月",
+		"chooseSubscriptionPlan": "選擇你要的訂閱計畫",
+		"oneMonthSubscriptionTitle": "1 個月訂閱",
+		"threeMonthSubscriptionTitle": "3 個月訂閱",
+		"sixMonthSubscriptionTitle": "6 個月訂閱",
+		"twelveMonthSubscriptionTitle": "12 個月訂閱",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "節省 {saveAmount}"
+	},
+	"downloadingLauncher": {
+		"title": "啟動工具下載中",
+		"note": "如果下載未開始，{tryAgainButtonText}。",
+		"tryAgain": "請重試",
+		"steps": {
+			"install": {
+				"title": "安裝",
+				"description": "點擊右上角的「立即下載」按鈕，開啟下載的檔案。\n\n如果出現彈出視窗，請點擊「執行」。安裝程式啟動後，請點擊「繼續」並等待安裝完成。"
+			},
+			"authorize": {
+				"title": "登入或註冊",
+				"description": "登入你的帳戶時，可以點擊「Xsolla 帳戶」並填寫你的詳細資料來登入。\n\n你也可以使用 Facebook、Google、Twitch 或任何其他建議的社群網路登入。"
+			},
+			"play": {
+				"title": "開始遊玩",
+				"description": "點擊螢幕頂部的按鈕開始遊戲！\n\n選擇安裝路徑，等待遊戲完成載入。我們開始吧。"
+			}
+		},
+		"help": {
+			"title": "遇到問題嗎？",
+			"description": "請查看這些連結來解決你的問題。"
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "隨時了解我們的最新資訊",
+		"email": "電子郵件",
+		"footnote": "訂閱即表示你同意接收 LTG 及 {xsollaFamilyLink} 的有關更新、促銷、獨特計畫等資訊的電子郵件。你可以隨時選擇退出這些電子郵件",
+		"thankYou": "感謝訂閱我們的更新",
+		"titleVariant2": "好的！請發給我獨家優惠、獨特的禮物創意以及使用 LTG 購買和銷售的個人化提示。",
+		"invalidEmail": "電子郵件無效",
+		"description": "訂閱電子報並了解遊戲中的最新資訊",
+		"remindMeLater": "稍後提醒我",
+		"subscribe": "訂閱"
+	}
+}

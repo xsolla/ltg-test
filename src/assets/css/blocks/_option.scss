@@ -1,0 +1,21 @@
+.option {
+	display: flex;
+	align-items: center;
+	margin: 0 10px 0 0;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+	color: #9592b2;
+
+	dt {
+		margin-right: 4px;
+	}
+
+	dd {
+		margin: 0;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,11 @@
+<template>
+	<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M20 6.75H5V9.25H20V6.75ZM20 0.5H0V3H20V0.5ZM20 15.5H10.9563V13H20V15.5Z" fill="white"/>
+	</svg>
+</template>
+
+<script lang="ts">
+export default {
+	name: 'BurgerIcon',
+};
+</script>

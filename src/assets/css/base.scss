@@ -1,0 +1,316 @@
+@import './variables.scss';
+@import './animation.scss';
+
+@import './blocks/badge.scss';
+@import './blocks/button';
+@import './blocks/games.scss';
+@import './blocks/games-card.scss';
+@import './blocks/game-unit.scss';
+@import './blocks/profile-games.scss';
+@import './blocks/games-modification.scss';
+@import './blocks/link.scss';
+@import './blocks/tags.scss';
+@import './blocks/dropdown.scss';
+@import './blocks/games-menu-list.scss';
+@import './blocks/carousel.scss';
+@import './blocks/game-info-text.scss';
+
+@import './blocks/promocode.scss';
+@import './blocks/promocodes.scss';
+@import './blocks/option.scss';
+@import './blocks/form.scss';
+@import './blocks/sidebar.scss';
+@import './blocks/info-card.scss';
+@import './blocks/subscription-info.scss';
+@import './blocks/content-page.scss';
+@import './blocks/game-hero.scss';
+@import './blocks/footer.scss';
+@import './blocks/select.scss';
+@import './blocks/toolbar.scss';
+@import './blocks/game-card';
+@import './blocks/custom-select';
+@import './blocks/external/gdpr.scss';
+@import './blocks/external/metaframe.scss';
+
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: calc(var(--index) * 0.45);
+	color: white;
+	// -webkit-tap-highlight-color: rgba(0, 0, 0, 0);  // todo если что расскоментить
+	// OVERSCROLL EFFECT OFF
+	overscroll-behavior-y: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: geometricPrecision;
+
+	&.lock {
+		overflow: hidden;
+	}
+
+	._container_cp7ys_196 {
+		z-index: 2001;
+	}
+}
+
+body {
+	background: var(--primary-dark-text-color);
+}
+
+body.clean {
+	background: unset;
+}
+
+button,
+textarea,
+input {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+button,
+a {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1340px;
+	//margin: 0 5rem;
+	margin: 0 auto;
+	//width: calc(100% - 10rem);
+	padding: 0 20px;
+}
+
+.no-select {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+.reverse {
+	transform: scale(-1);
+}
+
+.clamp-1 {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.clamp-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.clamp-3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+// SCROLL BAR
+
+::-webkit-scrollbar {
+	width: var(--scroller);
+	height: var(--scroller);
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: var(--scroller);
+	background-color: var(--main-color);
+
+	&:active {
+		background-color: rgba(133, 118, 253, 0.6);
+	}
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill {
+	-webkit-text-fill-color: white;
+	-webkit-box-shadow: 0 0 0 300px var(--dark-color) inset;
+	//transition: all 5000s ease-in-out 0s;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: black;
+}
+
+/*
+::selection {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+}*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+	transition: all 0s linear;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+#htmlNews {
+	b {
+		font-weight: 700;
+	}
+}
+
+.title {
+	margin: 0;
+	font-weight: 700;
+	font-size: 24px;
+	//line-height: 29px;
+	color: var(--title-color);
+
+	&--center {
+		text-align: center;
+	}
+}
+
+.button-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.list-reset {
+	list-style: none;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1340px;
+	margin: 0 auto;
+}
+.game__cover-img-wrap picture {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.modal {
+	z-index: 1;
+}
+
+.modal.with-header-overlap {
+	z-index: 903;
+}
+
+.content-logo {
+	width: 169px;
+	height: 130px;
+}
+
+.main-logo,
+.main-logo-scroll {
+	width: 50px;
+}
+
+.footer-logo {
+	// width: 82px;
+	height: 62px;
+}
+
+@media screen and (max-width: 1024px) {
+	.main-logo,
+	.main-logo-scroll {
+		width: 52px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.content-logo {
+		width: 97px;
+		height: 75px;
+	}
+	.main-logo,
+	.main-logo-scroll {
+		width: 40px;
+	}
+}
+
+.page-layout {
+	height: 100%;
+	min-height: 100vh;
+}
+
+.no-break {
+	white-space: nowrap;
+}
+
+// News
+// news
+.scroll {
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	overscroll-behavior-x: none;
+}
+.scroll::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+@media (max-width: 768px) {
+	.scroll {
+		width: 100%;
+		left: 0;
+		// Закомментил padding, создает лишний отступ на мобилке
+		//padding: 0 5vw;
+	}
+}
+
+.gap {
+	display: grid;
+	gap: 1vw;
+}
+@media (max-width: 1001px) {
+	.gap {
+		gap: 2vw;
+	}
+}
+@media (max-width: 768px) {
+	.gap {
+		gap: 5vw 0vw;
+	}
+	.gp {
+		gap: 5vw;
+	}
+}
+.mySwiperThumbs .swiper-wrapper {
+	align-items: center !important;
+}
+
+.expansion-button svg path,
+.menu-arrow path {
+	fill: #ffffff;
+}
+

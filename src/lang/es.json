@@ -1,0 +1,286 @@
+{
+	"common": {
+		"404": "Página no encontrada",
+		"500": "Inténtalo de nuevo o ponte en contacto con nuestro equipo de asistencia técnica",
+		"close": "Cerrar",
+		"back": "Atrás",
+		"next": "Siguiente",
+		"somethingWentWrong": "Algo ha salido mal",
+		"oops": "Ups...",
+		"haveToLogIn": "Primero tienes que iniciar sesión"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Confirmación de la política de privacidad",
+		"desc": "Al marcar estas casillas, confirmas que has leído y entiendes las condiciones del servicio y la política de privacidad de LTG en su totalidad.",
+		"privacyAndCookiesPolicy": "Política de cookies y de privacidad",
+		"termsOfService": "Condiciones del servicio",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "Usamos cookies en este sitio para mejorar tu experiencia de usuario. Para ver todas las cookies que usamos, consulta tus ajustes personales.",
+		"customize": "Personalizar",
+		"accept": "Aceptar",
+		"decline": "Rechazar"
+	},
+	"menu": {
+		"home": "Inicio",
+		"games": "Juegos",
+		"news": "Novedades",
+		"forum": "Foro",
+		"support": "Asistencia",
+		"login": "Iniciar sesión",
+		"download": "Descargar ahora",
+		"profile": "Perfil",
+		"logout": "Cerrar sesión"
+	},
+	"footer": {
+		"allRightsReserved": "Todos los derechos reservados.",
+		"termsOfService": "Condiciones del servicio",
+		"privacyAndCookiesPolicy": "Política de cookies y de privacidad",
+		"aboutLongTaleGames": "Acerca de LTG"
+	},
+	"auth": {
+		"title": "Autorización",
+		"desc": "La autorización con la cuenta de Xsolla es una forma fácil y segura de acceder a LTG Multiverse. ¡Tus datos personales están en buenas manos!",
+		"tip": "Para más información sobre la cuenta de Xsolla, consulta la guía de usuario.",
+		"guide": "Guía de usuario"
+	},
+	"news": {
+		"showMore": "Ver más",
+		"readMore": "Leer más",
+		"allNews": "Todas las novedades",
+		"relatedNews": "Novedades relacionadas"
+	},
+	"paymentSuccess": {
+		"title": "Pago realizado con éxito",
+		"desc": "Espera"
+	},
+	"techWorks": {
+		"title": "Mantenimiento en curso"
+	},
+	"gift": {
+		"loading": {
+			"title": "Abriendo tu regalo",
+			"desc": "Espera hasta que tu enlace de regalo se aplique"
+		},
+		"received": {
+			"title": "Todo listo",
+			"desc": "Has recibido tu regalo"
+		},
+		"autoDownloadLauncher": {
+			"title": "Todo listo",
+			"desc": "Por favor, abra el archivo que se descargó y disfrute de su juego. <br/> Si la descarga no comenzó, por favor, <a href=\"/?autoDownloadLauncher=true\"><u>inténtelo de nuevo</u></a>"
+		}
+	},
+	"access": {
+		"title": "Página de acceso"
+	},
+	"game": {
+		"shareToGetReward": "Compartir para conseguir recompensas",
+		"shareEllipsis": "Compartilhar",
+		"shareToRewardMoreVariants": "Otros",
+		"shareByCopyLink": "Copiar enlace",
+		"learnMore": "Saber más",
+		"website": "Sitio web",
+		"subscribe": "Suscribirse",
+		"gift": "Regalar a un amigo",
+		"buy": "Comprar ahora",
+		"play": "Jugar ahora",
+		"dashboard": "Panel de control",
+		"download": "Descargar",
+		"sale": "Oferta",
+		"release": "Fecha de lanzamiento",
+		"modifications": "Modificaciones",
+		"genre": "Género",
+		"languages": "Idiomas",
+		"platform": "Plataforma",
+		"developer": "Desarrollador",
+		"cloud": "Nube",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "Requisitos del sistema",
+			"minimal": "Mínimos",
+			"recommended": "Recomendados",
+			"os": "SO",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Red",
+			"storage": "Almacenamiento"
+		},
+		"news": "Novedades",
+		"showMore": "Ver más",
+		"screenshots": "Capturas de pantalla",
+		"videos": "Vídeos",
+		"modifier": "Modificación",
+		"firstDays": "Primeros {qty} días",
+		"firstMonth": "Primer mes",
+		"month": "al mes",
+		"then": "y luego",
+		"activateTrial": "Activar prueba",
+		"firstMonths": "Primeros {qty} meses",
+		"nextMonths": "Siguientes {qty} meses",
+		"promocodeApplied": "¡Código promocional aplicado!",
+		"changePromocode": "Cambiar código",
+		"selectPromocode": "Seleccionar código promocional",
+		"promocodeNotSelected": "No seleccionado"
+	},
+	"home": {
+		"games": {
+			"title": "Juegos"
+		},
+		"sliders": {
+			"learnMore": "Saber más",
+			"downloadNow": "Descargar ahora"
+		},
+		"news": {
+			"title": "Novedades",
+			"moreNews": "Más juegos"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Códigos promocionales",
+		"personalInfo": "Información personal",
+		"myGames": "Mis juegos"
+	},
+	"personalInfo": {
+		"mergeAccount": "Combinar cuenta de Long Tale Games"
+	},
+	"subscription": {
+		"expirationDate": "Fecha de expiración",
+		"canceled": "Cancelada",
+		"unsubscribe": "Cancelar suscripción",
+		"confirmUnsubscribe": {
+			"submit": "Detener suscripción",
+			"title": "¿Seguro?"
+		},
+		"currentSubscription": "Suscripción actual",
+		"subscriptionGift": "Regalar suscripción",
+		"friendEmail": "Correo electrónico de tu amigo",
+		"subscription": "Suscripción",
+		"playerNotFound": "Jugador no encontrado",
+		"enterEmail": "Introducir correo electrónico"
+	},
+	"promocodes": {
+		"title": "Introducir código promocional",
+		"desc": "Aquí puedes activar un código promocional nuevo o ver el historial de los códigos promocionales activados anteriormente en tu cuenta.",
+		"activate": "Activar",
+		"inProcess": "En curso",
+		"received": "Recibido",
+		"activated": "Activado",
+		"messages": {
+			"invalid": "Código promocional inválido. Inténtalo de nuevo o ponte en contacto con el equipo de asistencia.",
+			"limited": "Ya has usado este código promocional",
+			"alreadyUsed": "Este código promocional ya se ha usado",
+			"internalError": "Algo ha salido mal mientras activabas este código promocional. Inténtalo de nuevo o ponte en contacto con el equipo de asistencia.",
+			"alreadyHaveTrial": "Solo puedes activar el período de prueba una vez.",
+			"applied": "Código promocional activado con éxito"
+		},
+		"loadMore": "Cargar más"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "Indie",
+		"action": "Acción",
+		"rpg": "RPG",
+		"simulation": "Simulación",
+		"action-adventure": "Acción y aventura",
+		"adventure": "Aventura",
+		"puzzle": "Puzle",
+		"strategy": "Estrategia",
+		"sports": "Deportes",
+		"mmo": "MMO",
+		"horror": "Horror",
+		"casino": "Casino",
+		"casual": "Casual"
+	},
+	"ban": {
+		"title": "Confirmación de bloqueo del usuario",
+		"permanent": "Se te ha bloqueado permanentemente",
+		"until": "Se te ha bloqueado hasta:",
+		"selectError": "Tienes que elegir algo",
+		"tip": "Tienes que dejar de cometer errores",
+		"submit": "OK"
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "CAMBIA TU PLAN DE SUSCRIPCIÓN",
+		"contactSupport": "CONTACTAR EQUIPO DE SOPORTE",
+		"toSupport": "soporte",
+		"subscriptionChangeDescription": "Si deseas cambiar tu plan de suscripción, ponte en contacto con el equipo de {support}.",
+		"currentSubscriptionDescription": "Actualmente, tienes un {title}. Finaliza el {endsOn}.",
+		"back": "ATRÁS",
+		"changePlan": "CAMBIAR PLAN",
+		"subscribe": "Suscribirse",
+		"activated": "Activado",
+		"totalPrice": "Precio total",
+		"perMonth": "mes",
+		"chooseSubscriptionPlan": "ELIGE TU PLAN DE SUSCRIPCIÓN",
+		"oneMonthSubscriptionTitle": "Suscripción de 1 mes",
+		"threeMonthSubscriptionTitle": "Suscripción de 3 meses",
+		"sixMonthSubscriptionTitle": "Suscripción de 6 meses",
+		"twelveMonthSubscriptionTitle": "Suscripción de 12 meses",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "Ahorra {saveAmount}"
+	},
+	"downloadingLauncher": {
+		"title": "DESCARGANDO LAUNCHER",
+		"note": "Si la descarga no ha comenzado, {tryAgainButtonText}.",
+		"tryAgain": "inténtalo de nuevo",
+		"steps": {
+			"install": {
+				"title": "Instalar",
+				"description": "Haz clic en el botón \"Descargar ahora\" en la esquina superior derecha y abre el archivo descargado.\n\nSi aparece una ventana emergente, haz clic en \"Ejecutar\". Una vez que comience el instalador, haz clic en \"Continuar\" y espera a que la instalación se complete."
+			},
+			"authorize": {
+				"title": "Iniciar sesión o registrarse",
+				"description": "Podrás iniciar sesión en tu cuenta haciendo clic en \"Cuenta de Xsolla\" y completando tus datos.\n\nTambién puedes usar tu cuenta de Facebook, Google, Twitch o cualquier otra red social sugerida para iniciar sesión."
+			},
+			"play": {
+				"title": "Empezar a jugar",
+				"description": "¡Haz clic en el botón en la parte superior de la pantalla para ejecutar el juego!\n\nSelecciona la ruta de instalación y espera a que el juego termine de cargar. ¡Vamos!"
+			}
+		},
+		"help": {
+			"title": "¿Tienes algún problema?",
+			"description": "Explora estos enlaces para abordar tus preocupaciones."
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "Mantente al día de nuestras novedades",
+		"email": "Correo electrónico",
+		"footnote": "Al suscribirte, accedes a recibir correos electrónicos de LTG y {xsollaFamilyLink} sobre actualizaciones, promociones, iniciativas únicas y más. Puedes optar por dejar de recibir estos correos electrónicos cuando quieras.",
+		"thankYou": "Gracias por suscribirte a nuestras actualizaciones.",
+		"titleVariant2": "¡Sí! Enviadme ofertas exclusivas, ideas de regalo únicas y consejos personalizados para comprar y vender con LTG.",
+		"invalidEmail": "Correo electrónico inválido",
+		"description": "Suscríbete al boletín y estate al día de lo que está pasando en el juego",
+		"remindMeLater": "Recuérdamelo más tarde",
+		"subscribe": "Suscribirse"
+	}
+}

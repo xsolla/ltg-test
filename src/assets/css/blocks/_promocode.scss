@@ -1,0 +1,16 @@
+.promocode {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 0 10px 0;
+	padding: 30px;
+	background: var(--reskin-secondary-dark-color);
+	box-sizing: border-box;
+}
+
+.promocode__description {
+	margin: 0 0 20px 0;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--white-50);
+}

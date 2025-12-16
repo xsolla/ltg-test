@@ -1,0 +1,33 @@
+.link {
+	text-decoration: none;
+
+	&--text {
+		color: var(--link-color);
+
+		&:hover {
+			color: var(--link-color-hover);
+		}
+	}
+
+	&--bordered {
+		display: block;
+		height: 30px;
+		padding: 0 18px;
+		border: 1px solid var(--primary-color);
+		border-radius: 5px;
+		text-align: center;
+		color: var(--text-color);
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 30px;
+		text-transform: uppercase;
+		transition: all 0.3s ease-in;
+
+		&:hover {
+			background: var(--button-hover-bg-color);
+			border-color: var(--button-hover-border-color);
+			box-shadow: var(--button-hover-box-shadow);
+			transition: all 0.3s ease-out;
+		}
+	}
+}

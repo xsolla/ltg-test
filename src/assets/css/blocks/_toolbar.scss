@@ -1,0 +1,17 @@
+.toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.toolbar__group {
+	display: flex;
+	align-items: center;
+
+	.toolbar__item {
+		& + .toolbar__item {
+			margin-left: 10px;
+		}
+	}
+}

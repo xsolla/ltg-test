@@ -1,0 +1,79 @@
+.game-card {
+	width: 320px;
+	min-height: 260px;
+	padding: 10px;
+	background: #181533;
+	box-sizing: border-box;
+
+	@media screen and (max-width: $min-mobile) {
+		min-width: 320px;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	&--text {
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+
+		@media screen and (max-width: $mid-tablet) {
+			max-width: 100%;
+		}
+
+		.game-card__title {
+			margin: 0 0 10px 0;
+		}
+
+		.game-card__text {
+			font-size: 12px;
+			line-height: 20px;
+			-webkit-line-clamp: 5;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			word-break: break-word;
+		}
+	}
+}
+
+.game-card__link {
+	display: block;
+	width: 100%;
+}
+
+.game-card__pic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 190px;
+	height: auto;
+	margin: 0 0 20px 0;
+	background-color: var(--extra-color-2);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 7px;
+	overflow: hidden;
+	aspect-ratio: 16 / 9;
+}
+
+.game-card__body {
+	min-height: 30px;
+	margin-top: auto;
+	padding: 0 10px 10px 10px;
+}
+
+.game-card__title {
+	margin: 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.game-card__text {
+	font-size: 12px;
+	line-height: 14px;
+	color: #a09cb9;
+}

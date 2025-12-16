@@ -1,0 +1,430 @@
+{
+	"common": {
+		"404": "Page not found",
+		"500": "Please try again later or contact tech support",
+		"close": "Close",
+		"back": "Back",
+		"next": "Next",
+		"somethingWentWrong": "Something went wrong",
+		"oops": "Oops...",
+		"haveToLogIn": "You have to log in first"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Privacy Policy confirmation",
+		"desc": "By checking these boxes, you confirm that you have read and understood the Terms of Service and the LTG Privacy Policy in their entirety",
+		"privacyAndCookiesPolicy": "Privacy and cookies policy",
+		"termsOfService": "Terms of Service",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "We use cookies on this site to enhance your user experience. For a complete overview of of all cookies used, please see your personal settings.",
+		"customize": "Customize",
+		"accept": "Accept",
+		"decline": "Decline"
+	},
+	"menu": {
+		"home": "Home",
+		"games": "Games",
+		"news": "News",
+		"forum": "Forum",
+		"support": "Support",
+		"login": "Log in",
+		"download": "Download Now",
+		"launcherIsPcOnly": "Launcher is PC-only",
+		"profile": "Profile",
+		"logout": "Logout"
+	},
+	"footer": {
+		"allRightsReserved": "All rights reserved.",
+		"termsOfService": "Terms of Service",
+		"privacyAndCookiesPolicy": "Privacy and cookies policy",
+		"aboutLongTaleGames": "About LTG",
+		"balanceRestorationTerms": "Balance Restoration Campaign Terms"
+	},
+	"auth": {
+		"title": "Authorization",
+		"desc": "Authorization with Xsolla Wallet is a simple and secure way to access the LTG Multiverse. Your personal data is in good hands!",
+		"tip": "For more info on Xsolla Wallet, see the User Guide",
+		"guide": "User Guide"
+	},
+	"news": {
+		"showMore": "Show more",
+		"readMore": "Read more",
+		"allNews": "All news",
+		"relatedNews": "Related news"
+	},
+	"paymentSuccess": {
+		"title": "Payment Success Page",
+		"desc": "Please wait"
+	},
+	"techWorks": {
+		"title": "Maintenance in progress"
+	},
+	"gift": {
+		"loading": {
+			"title": "Unpacking your gift",
+			"desc": "Please wait until your gift link is applied"
+		},
+		"received": {
+			"title": "All set",
+			"desc": "You received your gift"
+		},
+		"autoDownloadLauncher": {
+			"title": "All set",
+			"desc": "Please open the file that was downloaded and enjoy your game!<br/> If your download didn't start, please <a href=\"/?autoDownloadLauncher=true\"><u>try again</u></a>"
+		}
+	},
+	"access": {
+		"title": "Access Page"
+	},
+	"game": {
+		"shareToGetReward": "Share to Get Rewards",
+		"shareEllipsis": "Share...",
+		"shareToRewardMoreVariants": "Other",
+		"shareByCopyLink": "Copy link",
+		"learnMore": "Learn more",
+		"website": "Website",
+		"subscribe": "Subscribe",
+		"gift": "Gift a friend",
+		"buy": "Buy now",
+		"play": "Play now",
+		"dashboard": "Dashboard",
+		"download": "Download",
+		"sale": "Sale",
+		"release": "Release date",
+		"modifications": "Modifications",
+		"genre": "Genre",
+		"languages": "Languages",
+		"platform": "Platform",
+		"developer": "Developer",
+		"cloud": "Cloud",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "System requirements",
+			"minimal": "Minimal",
+			"recommended": "Recommended",
+			"os": "OS",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Network",
+			"storage": "Storage"
+		},
+		"news": "News",
+		"showMore": "Show more",
+		"screenshots": "Screenshots",
+		"videos": "Videos",
+		"modifier": "Modification",
+		"firstDays": "First {qty} days",
+		"firstMonth": "First month",
+		"firstMonthsWithPrice": "{months} {price}",
+		"nextMonthsWithPrice": "{months} {price}",
+		"month": "month",
+		"then": "then",
+		"activateTrial": "Activate trial",
+		"firstMonths": "First {qty} months",
+		"nextMonths": "Next {qty} months",
+		"promocodeApplied": "Promocode applied!",
+		"changePromocode": "Change code",
+		"selectPromocode": "Select promocode",
+		"promocodeNotSelected": "Not seleected",
+		"chosePackTitle": "Early Access Packs for Life is Feudal: Arden",
+		"chosePackDescription": "Each pack includes exclusive in-game items and unique skins that will be delivered during the Open Beta stage. Plus, you'll have the rare opportunity to enter the Open Beta ahead of other players!</br> Every pack grants access to the CBT and comes with an invitation code to share with a friend<sup>*</sup>!</br></br> <span>*The number of friend invitations to the CBT varies by pack. If you purchase multiple packs, the invitations will stack.</span></br></br>"
+	},
+	"home": {
+		"games": {
+			"title": "Games"
+		},
+		"sliders": {
+			"learnMore": "Learn more",
+			"downloadNow": "Download now"
+		},
+		"news": {
+			"title": "News",
+			"moreNews": "More news"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Promocodes",
+		"personalInfo": "Personal info",
+		"myGames": "My Games"
+	},
+	"personalInfo": {
+		"mergeAccount": "Merge Long Tale Games account"
+	},
+	"subscription": {
+		"expirationDate": "Expiration date",
+		"canceled": "Canceled",
+		"unsubscribe": "Unsubscribe",
+		"confirmUnsubscribe": {
+			"submit": "Stop subscription",
+			"title": "Are you sure?"
+		},
+		"currentSubscription": "Current subscription",
+		"subscriptionGift": "Subscription gift",
+		"friendEmail": "Friend email",
+		"subscription": "Subscription",
+		"playerNotFound": "Player not found",
+		"enterEmail": "Enter email"
+	},
+	"promocodes": {
+		"title": "Enter promocode",
+		"desc": "Here you can activate a new promocode or view the history of previously activated promocodes on your account",
+		"activate": "Activate",
+		"inProcess": "In process",
+		"received": "Received",
+		"activated": "Activated",
+		"messages": {
+			"invalid": "Invalid promocode. Please, try again later or contact support",
+			"limited": "You have already used this promocode",
+			"alreadyUsed": "This promocode has already been used",
+			"internalError": "Something went wrong while applying this promocode. Please, try again later or contact support",
+			"alreadyHaveTrial": "You can only activate the trial period once",
+			"applied": "Promocode successfully applied"
+		},
+		"loadMore": "Load more"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "Indie",
+		"action": "Action",
+		"rpg": "RPG",
+		"simulation": "Simulation",
+		"action-adventure": "Action-adventure",
+		"adventure": "Adventure",
+		"puzzle": "Puzzle",
+		"strategy": "Strategy",
+		"sports": "Sports",
+		"mmo": "MMO",
+		"horror": "Horror",
+		"casino": "Casino",
+		"casual": "Casual"
+	},
+	"ban": {
+		"title": "User Ban Confirmation",
+		"permanent": "You are blocked permanently",
+		"until": "You are blocked until",
+		"selectError": "You have to select at least something",
+		"tip": "You have to stop making mistakes",
+		"submit": "Ok"
+	},
+	"gdpr": {
+		"essentialCookiesDescription": "These cookies are necessary for our website to function and cannot be switched off. For example, they include cookies that enable you to log in to your personal account.<br/><br/>You can set your browser to block or alert you about these cookies, but then some parts of this website might not work as expected.",
+		"analyticalPerformanceCookiesDescription": "These cookies collect information about your use of this website and enable us to improve the way it works. For example, we can ensure you easily find what you're looking for or record any difficulties you may have.<br/><br/>If you don't accept these cookies, we won't know when you have visited our website and won't be able to monitor its performance.",
+		"functionalCookieDescription": "These cookies allow us to remember the choices you make on our website. This helps us provide enhanced and personalized features. For example, we can customize a certain page for you, or provide other services at your request.<br/><br/>If you don't accept these cookies, some or all of these features might not function properly.",
+		"targetingCookieDescription": "These cookies record the pages you have visited on this website and the links you have followed. We use this information to make our website and the advertising displayed on it more relevant to your interests. We may also share this information with third parties for this purpose.<br/><br/>If you do not accept these cookies, you will still see advertisements, but they won’t be tailored to your interests."
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "Change your subscription plan",
+		"contactSupport": "Contact support",
+		"toSupport": "support",
+		"subscriptionChangeDescription": "If you wish to change your subscription plan, please contact {support}.",
+		"currentSubscriptionDescription": "You currently have a {title}. It ends on {endsOn}.",
+		"back": "Back",
+		"changePlan": "Change plan",
+		"subscribe": "Subscribe",
+		"activated": "Activated",
+		"totalPrice": "Total price",
+		"perMonth": "Month",
+		"months": "Months",
+		"chooseSubscriptionPlan": "Choose your subscription plan",
+		"oneMonthSubscriptionTitle": "1-Month Subscription",
+		"threeMonthSubscriptionTitle": "3-Month Subscription",
+		"sixMonthSubscriptionTitle": "6-Month Subscription",
+		"twelveMonthSubscriptionTitle": "12-Month Subscription",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "Save {saveAmount}"
+	},
+	"mergeAccount": {
+		"mergeEmail": "Merge Email",
+		"mergeSteam": "Merge Steam",
+		"merged": "Merged",
+		"request": {
+			"title": "Merge Account",
+			"desc": "Enter the email of the old Life is Feudal: MMO account that you wish to merge with your Xsolla Wallet",
+			"emailPlaceholder": "Enter your email",
+			"cta": "Merge",
+			"close": "Ok"
+		},
+		"requestSteam": {
+			"title": "Merge Account",
+			"button-0": "Continue",
+			"button-1": "Cancel"
+		},
+		"confirm": {
+			"title": "Merging Your Account",
+			"button-0": "Confirm",
+			"button-1": "Cancel",
+			"close": "Ok"
+		},
+		"warn": {
+			"message": "Please note: {0}, including your Steam account. This action cannot be repeated. Make sure all provided information is accurate before proceeding.",
+			"accent": "You can only merge accounts once"
+		},
+		"terms": "Terms",
+		"agreement": "By clicking the «{0}» button, you agree to participate in the Life is Feudal: MMO Balance Restoration Campaign in accordance with the {1}."
+	},
+	"downloadingLauncher": {
+		"title": "DOWNLOADING LAUNCHER",
+		"note": "If your download didn't start, {tryAgainButtonText}.",
+		"tryAgain": "try again",
+		"steps": {
+			"install": {
+				"title": "Install",
+				"description": "Click the \"Download now\" button in the upper right corner and open the downloaded file.\n\nIf a pop-up window appears, click \"Run\". Once the installer starts, click \"Continue\" and wait for the installation to complete."
+			},
+			"authorize": {
+				"title": "Log in or Sign up",
+				"description": "When logging into your account, you will be able to log in by clicking \"Xsolla Account\" and filling in your details.\n\nYou can also use your Facebook, Google, Twitch or any other suggested social network to log in."
+			},
+			"play": {
+				"title": "Start playing",
+				"description": "Click the \"Launch\" button at the top of the screen to start the game!\n\nSelect the installation path and wait for the game to finish loading. Let’s go."
+			}
+		},
+		"help": {
+			"title": "Having trouble?",
+			"description": "Explore these links to address your concerns."
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "Stay up to date with us",
+		"email": "Email",
+		"footnote": "By subscribing you agree to receive emails from LTG and {xsollaFamilyLink} about updates, promotions, unique initiatives and more. You can opt out of these emails whenever you feel like it.",
+		"thankYou": "Thank you for subscribing to our updates.",
+		"titleVariant2": "Yes! Send me exclusive offers, unique gift ideas, and personalized tips for shopping and selling with LTG.",
+		"invalidEmail": "Invalid email",
+		"description": "Sign up for the newsletter and stay up to date with what's going on in the game.",
+		"remindMeLater": "Remind me later",
+		"subscribe": "Subscribe"
+	},
+	"arden-index": {
+		"title_how_to_1": "How to access the CBT",
+		"title_ea_how_to_1": "Open Beta has begun – Join the feudal adventure!",
+		"desc_how_to_11": "• Purchase one of the early access packs.",
+		"desc_ea_how_to_11": "The gates of Life is Feudal: Arden are wide open! The Open Beta is now live, and you can jump into this medieval world of adventure for free. Whether you're a seasoned player or a newcomer seeking your first taste of medieval glory, there's never been a better time to join.",
+		"desc_how_to_12": "• Receive an invite from a friend who purchased an early access pack.",
+		"desc_how_to_13": "• Purchase a Life is Feudal: MMO game subscription, either directly or with LiF Coins.",
+		"desc_how_to_14": "• Win an invite in one of our Discord giveaways.",
+		"title_how_to_2": "How to join the test server",
+		"title_ea_how_to_2": "How to start playing:",
+		"desc_how_to_21": "The closed beta test will be hosted on the LTG platform. Once CBT begins, Life is Feudal: Arden will be available for download in the LTG launcher.",
+		"desc_ea_how_to_21": "• Download the game for free through the {launcherLink} , {steamLink} or on {egs}.",
+		"desc_ea_how_to_22": "• Use the same account on both platforms seamlessly with our {cross_auth_link} – play however you like, wherever you like!",
+		"desc_ea_how_to_23": "The battle for the new world begins. Will you rise to power or fall to the swords of rivals? There’s only one way to find out – join the Open Beta now!",
+		"desc_ea_how_to_22_link": "cross-authorization guide",
+		"download_launcher": "Download Launcher",
+		"download_launcher_text": "All that's left is to wait for the start! Follow us on social media and keep an eye on your inbox for updates.",
+		"pack_title": "Life is Feudal: Arden Founder Packs",
+		"friend_code_text": "Invite friends to CBT",
+		"friend_code_btn": "Get codes",
+		"popup_code_title": "Get CBT invites for your friends",
+		"popup_code_text_1": "Copy and send a promo code to invite a friend to the CBT. Note that this promo code grants access to CBT only and does not include item packs or early access privileges.",
+		"popup_code_text_2": "Your friend can activate the code through their account on the LTG platform or by clicking the \"Profile\" tab in the LTG launcher once Life is Feudal: Arden becomes available for closed beta testing. Each promo code can be used only once.",
+		"stage_title": "Life is Feudal: Arden release stages",
+		"stage_title_1": "Closed Beta Testing",
+		"stage_title_2": "Early Access",
+		"stage_title_3": "Open Beta Testing",
+		"feature_title": "About the game",
+		"feature_title_1": "Character progression",
+		"feature_text_1": "Experience a fresh approach to character progression. Leave the routine leveling of alts in the past, and focus on developing all necessary professions on your main character. At designated points on the map, seamlessly switch from wielding a sword to working the plow, or trade the plow for a blacksmith’s hammer. Plan, adapt, and conquer!",
+		"feature_title_2": "Realistic battles",
+		"feature_text_2": "Separate PvP, PvE, and even PvPvE zones ensure there’s never a dull moment. Engage in battles with local factions or clash with other players, from one-on-one duels to epic large-scale conflicts. With formation tactics, advanced combat techniques, and a realistic damage system, you’ll have the tools to devise countless strategies and become a true combat master.",
+		"social_title": "Follow us",
+		"slides": {
+			"slide1": {
+				"thumb": "New map",
+				"title": "New map",
+				"text": "Experience a unique adventure on a hand-crafted map featuring dedicated PvP, PvE, and even PvPvE zones. Explore this dangerous world, claim your lands, and gather valuable resources to rise as the rightful ruler of these vast territories."
+			},
+			"slide2": {
+				"thumb": "Enhanced crafting system",
+				"title": "Enhanced crafting system",
+				"text": "The crafting system has been simplified for better accessibility, while retaining the depth and value of creating rare and powerful items. Strengthen your character with unique gear or sell your creations to amass wealth."
+			},
+			"slide3": {
+				"thumb": "Realistic trade",
+				"title": "Realistic trade",
+				"text": "Choose the perfect location for your trading post—but be prepared, as instant item transfers are a thing of the past. Now, you’ll need to deliver goods personally. Chart your own secret paths or rely on friends to protect your earnings from bandits. Or perhaps, you’ll be the one instilling fear in other travelers."
+			},
+			"slide4": {
+				"thumb": "Group PvP arenas",
+				"title": "Group PvP arenas",
+				"text": "Dive into exhilarating battles in group PvP arenas, challenging friends or rival warriors. Refine your strategies, sharpen your skills, and learn new techniques to ensure victory. In the heat of battle, every second counts."
+			},
+			"slide5": {
+				"thumb": "New buildings",
+				"title": "New buildings",
+				"text": "Discover a range of new buildings and structures to enrich your medieval life. Construct homes, build thriving villages, and fortify entire cities with impregnable castles and defensive fortifications. Unleash your creativity and play in the way that suits you best!"
+			}
+		},
+		"pack_content": {
+			"access": "CBT + OBT Early Access (2 Days)",
+			"friend_access": "CBT for a friend",
+			"currency": "God's Favor",
+			"premium": "Premium",
+			"days": "days",
+			"title1": "True Believer Title",
+			"title2": "Devoted Believer Title",
+			"title3": "Zealous Believer Title",
+			"tier_1_ws": "Tier 1 Weapon Skin of choice",
+			"tier_2_ws": "Tier 2 Weapon Skin of choice",
+			"tier_3_ws": "Tier 3 Weapon Skin of choice",
+			"tier_1_ss": "Tier 1 Skin Set of choice",
+			"tier_2_ss": "Tier 2 Skin Set of choice",
+			"tier_3_ss": "Tier 3 Skin Set of choice",
+			"tier_1_ts": "Tier 1 Tool Skin of choice",
+			"tier_2_ts": "Tier 2 Tool Skin of choice",
+			"tier_3_ts": "Tier 3 Tool Skin of choice",
+			"tier_1_of": "Tier 1 Outfit of choice",
+			"tier_2_of": "Tier 2 Outfit of choice",
+			"tier_2_hs": "Tier 2 Hat Skin of choice",
+			"tiara": "Tiara of the Sleepless Eye (red)",
+			"tiara_blue": "Tiara of the Sleepless Eye (blue)",
+			"konung": "Konung's Outfit",
+			"shovel": "Grand Spade Shovel Skin",
+			"runic_tunic": "Runic Tunic",
+			"pack_name_1": "Early True Believer's Pack",
+			"founder_pack_name_1": "True Believer's Pack",
+			"pack_name_2": "Early Devoted Believer's Pack",
+			"founder_pack_name_2": "Devoted Believer's Pack",
+			"pack_name_3": "Early Zealous Believer's Pack",
+			"founder_pack_name_3": "Zealous Believer's Pack",
+			"pack_subtitle": "Early access pack",
+			"founder_pack_subtitle": "Founder pack",
+			"view": "View more",
+			"btn_buy": "Buy"
+		},
+		"game_page": {
+			"title": "Life is Feudal: Arden Founder Packs",
+			"description": "<p>Get ready for your medieval journey with the exclusive Founder Packs!</p><p>Each pack offers premium currency, subscription time, and unique skins to customize your weapons, tools, and armor. Higher-tier packs include rare, prestigious items to showcase your status in Arden. Whether you're a True, Devoted, or Zealous Believer, these packs provide the ultimate head start for conquering the feudal world.</p><p>Choose yours today and forge your path to greatness!</p>"
+		}
+	}
+}

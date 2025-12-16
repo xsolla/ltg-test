@@ -1,0 +1,139 @@
+:root {
+	// =============================== old variables
+	--index: calc(1vh + 1vw);
+
+	--border-mask: linear-gradient(45deg, white, white) content-box,
+		linear-gradient(45deg, white, white);
+	--radius-large: 1.4rem;
+	--scroller: 0.3rem;
+	--main-color: #8576fd;
+	--dark-color: #211a35;
+	--medium-darker-color: #1a1736;
+	--darker-color: #120f2c;
+
+	--glass-dark: rgba(222, 239, 255, 0.05);
+
+	--main-gradient: linear-gradient(250deg, #a857ff 0%, #8576fd 100%);
+	--card-gradient-y: linear-gradient(180deg, rgba(70, 64, 118, 0) 32%, #383261 62%, #483e88 100%);
+	--card-gradient-x: linear-gradient(270deg, #352b6b 0%, rgba(37, 26, 70, 0) 100%);
+
+	--dark-gradient: linear-gradient(
+		90deg,
+		#120f2c 0%,
+		rgba(18, 15, 44, 0.79) 37%,
+		rgba(18, 15, 44, 0.48) 70%,
+		rgba(18, 15, 44, 0) 100%
+	);
+
+	// =============================== new variables
+
+	--desktop-header-offset: 110px;
+
+	// re-skin colors
+	--reskin-primary-dark-color: #454f88;
+	--reskin-secondary-dark-color: #2b335e;
+	--reskin-tertiary-dark-color: #292f52;
+	--reskin-quaternary-dark-color: #2d3358;
+	--reskin-quinary-dark-color: #2e3766;
+	--reskin-senary-dark-color: #535e99;
+	--reskin-primary-neutral-color: #7f8bc9;
+	--reskin-secondary-neutral-color: #b0baee;
+	--reskin-primary-light-color: #b1b9e7;
+	--reskin-secondary-light-color: #fff;
+	--reskin-tertiary-light-color: #d0d8ff;
+
+	--reskin-primary-gray: #8c8b9a;
+
+	--reskin-hover-secondary-dark-color: #5b66a2;
+
+	--reskin-disabled-button-background-color: #484848;
+	--reskin-active-outline-button-background-color: #7f8bc933;
+
+	--reskin-accent-button-gradient-rotation-angle: 95deg;
+	--reskin-accent-button-gradient-first-color: #fdff96;
+	--reskin-accent-button-gradient-second-color: #ffca43;
+	--reskin-active-accent-button-gradient-first-color: #eaec8a;
+	--reskin-active-accent-button-gradient-second-color: #edbc3e;
+	--reskin-hover-accent-button-gradient-first-color: #fff;
+	--reskin-hover-accent-button-gradient-second-color: #f3ff66;
+
+	--reskin-button-gradient-rotation-angle: 90deg;
+	--reskin-hover-button-gradient-first-color: #aea0ff;
+	--reskin-hover-button-gradient-second-color: #ffa5eb;
+
+	--reskin-primary-light-text-color: var(--reskin-secondary-light-color);
+
+	--primary-light-text-color: #fff;
+	--primary-dark-text-color: #0d143a;
+	--secondary-dark-text-color: #070708;
+	--accent-gradient: linear-gradient(90deg, #aea0ff 0%, #ffa5eb 100%);
+
+	--white: #ffffff;
+	--white-15: rgba(255, 255, 255, 0.15);
+	--white-20: rgba(255, 255, 255, 0.15);
+	--white-25: rgba(255, 255, 255, 0.25);
+	--white-40: rgba(255, 255, 255, 0.4);
+	--white-50: rgba(255, 255, 255, 0.5);
+	--white-70: rgba(255, 255, 255, 0.7);
+	--white-75: rgba(255, 255, 255, 0.75);
+	--white-80: #c7c7c7;
+	--primary-color: #8576fd;
+	--extra-color-1: #a7a5bd;
+	--extra-color-2: #52506b;
+	--extra-color-3: #1a1736;
+	--extra-color-4: #302b59;
+
+	--bg-page: #120f2c;
+
+	--title-color: var(--white);
+	--text-color: var(--white);
+	--link-color: var(--primary-color);
+	--link-color-hover: #9d95de;
+
+	--card-bg: #383261;
+	--card-title-color: var(--white);
+	--card-text-color-major: var(--white);
+	--card-text-color-minor: #8f94a5;
+
+	--badge-bg-default: var(--primary-color);
+	--badge-bg-sale: #e80000;
+	--badge-bg-success: #49ac25;
+	--badge-bg-process: #8576fd;
+	--badge-colored-purple: #a857ff;
+	--badge-color: var(--white);
+
+	--button-border-color: var(--primary-color);
+	--button-bg-color: var(--primary-color);
+	--button-text-color: var(--white);
+
+	--button-hover-bg-color: #1c1745;
+	--button-hover-border-color: var(--primary-color);
+	--button-hover-box-shadow: 0 0 7px #a857ff;
+
+	--games-modifications-color-text: var(--white);
+
+	--game-unit-bg: #1a1736;
+	--game-unit-bg-hover: #2a2749;
+
+	--common-transition-duration-easing-function: ease 0.25s;
+
+	// add roboto
+	--roboto-font-family: 'Roboto', 'Montserrat', 'sans-serif';
+	--inter-font-family: 'Inter', 'Montserrat', sans-serif;
+	--pilat-wide-font-family: 'Pilat Wide', 'Montserrat', sans-serif;
+	--helvetica-neue-font-family: 'Helvetica Neue', 'Montserrat', sans-serif;
+
+	--max-mid-desktop: 1440px;
+	--max-tablet: 1024px;
+	--max-mobile: 768px;
+	--mid-mobile: 600px;
+}
+
+// breakpoint from @/composables/mobile-tablet-desktop
+$dimension-hook-tablet-max-width: 1100px;
+
+$mid-tablet: 1200px;
+$max-tablet: 1024px;
+$max-mobile: 768px;
+$mid-mobile: 600px;
+$min-mobile: 480px;

@@ -1,0 +1,286 @@
+{
+	"common": {
+		"404": "페이지를 찾을 수 없습니다",
+		"500": "나중에 다시 시도하거나 기술 지원팀에 문의하세요",
+		"close": "닫기",
+		"back": "뒤로",
+		"next": "다음",
+		"somethingWentWrong": "문제가 발생했습니다",
+		"oops": "이런...",
+		"haveToLogIn": "우선 로그인해야 합니다"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "개인정보 처리방침 확인",
+		"desc": "이 상자에 체크 표시를 하면 이용약관 및 LTG 개인정보 처리방침의 전문을 읽었으며 이해했음에 동의하게 됩니다.",
+		"privacyAndCookiesPolicy": "개인정보 처리방침 및 쿠키 정책",
+		"termsOfService": "이용약관",
+		"submit": "확인"
+	},
+	"cookies": {
+		"message": "저희는 이 사이트에서 귀하의 사용자 경험을 향상하기 위해 쿠키를 사용합니다. 사용하는 모든 쿠키의 개요를 확인하려면 개인 설정을 검토하세요.",
+		"customize": "사용자 지정",
+		"accept": "수락",
+		"decline": "거절"
+	},
+	"menu": {
+		"home": "홈",
+		"games": "게임",
+		"news": "뉴스",
+		"forum": "포럼",
+		"support": "지원",
+		"login": "로그인",
+		"download": "지금 다운로드",
+		"profile": "프로필",
+		"logout": "로그아웃"
+	},
+	"footer": {
+		"allRightsReserved": "모든 권리 보유.",
+		"termsOfService": "이용약관",
+		"privacyAndCookiesPolicy": "개인정보 처리방침 및 쿠키 정책",
+		"aboutLongTaleGames": "LTG 정보"
+	},
+	"auth": {
+		"title": "인증",
+		"desc": "Xsolla 계정으로 인증하면 LTG Multiverse를 쉽고 안전하게 이용할 수 있습니다. 개인 데이터는 안전하게 보관됩니다!",
+		"tip": "Xsolla 계정에 대한 더 자세한 정보는 사용자 가이드에서 확인하세요",
+		"guide": "사용자 가이드"
+	},
+	"news": {
+		"showMore": "더 보기",
+		"readMore": "더 읽기",
+		"allNews": "모든 소식",
+		"relatedNews": "관련 소식"
+	},
+	"paymentSuccess": {
+		"title": "결제 완료 페이지",
+		"desc": "잠시 기다려주세요"
+	},
+	"techWorks": {
+		"title": "점검 중"
+	},
+	"gift": {
+		"loading": {
+			"title": "선물 개봉 중",
+			"desc": "선물 링크가 적용될 때까지 기다려주세요"
+		},
+		"received": {
+			"title": "준비 완료",
+			"desc": "선물을 받았습니다"
+		},
+		"autoDownloadLauncher": {
+			"title": "준비 완료",
+			"desc": "다운로드한 파일을 열어 게임을 즐기세요! <br/> 다운로드가 시작되지 않았다면, <a href=\"/?autoDownloadLauncher=true\"><u>다시 시도</u></a>해주세요"
+		}
+	},
+	"access": {
+		"title": "액세스 페이지"
+	},
+	"game": {
+		"shareToGetReward": "공유해 보상을 받으세요",
+		"shareEllipsis": "공유",
+		"shareToRewardMoreVariants": "기타",
+		"shareByCopyLink": "링크 복사",
+		"learnMore": "더 알아보기",
+		"website": "웹사이트",
+		"subscribe": "구독",
+		"gift": "친구에게 선물",
+		"buy": "지금 구매",
+		"play": "지금 플레이",
+		"dashboard": "대시보드",
+		"download": "다운로드",
+		"sale": "세일",
+		"release": "출시일",
+		"modifications": "모드",
+		"genre": "장르",
+		"languages": "언어",
+		"platform": "플랫폼",
+		"developer": "개발자",
+		"cloud": "클라우드",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "시스템 요구사항",
+			"minimal": "최소",
+			"recommended": "권장",
+			"os": "OS",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "네트워크",
+			"storage": "저장소"
+		},
+		"news": "뉴스",
+		"showMore": "더 보기",
+		"screenshots": "스크린샷",
+		"videos": "영상",
+		"modifier": "모드",
+		"firstDays": "첫 {qty}일",
+		"firstMonth": "첫 1개월",
+		"month": "개월",
+		"then": "그 후",
+		"activateTrial": "체험 활성화",
+		"firstMonths": "첫 {qty} 개월",
+		"nextMonths": "다음 {qty} 개월",
+		"promocodeApplied": "프로모션 코드가 적용되었습니다!",
+		"changePromocode": "코드 변경",
+		"selectPromocode": "프로모션 코드 선택",
+		"promocodeNotSelected": "선택되지 않음"
+	},
+	"home": {
+		"games": {
+			"title": "게임"
+		},
+		"sliders": {
+			"learnMore": "더 알아보기",
+			"downloadNow": "지금 다운로드"
+		},
+		"news": {
+			"title": "뉴스",
+			"moreNews": "더 많은 소식"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "프로모션 코드",
+		"personalInfo": "개인정보",
+		"myGames": "나의 개임"
+	},
+	"personalInfo": {
+		"mergeAccount": "Long Tale Games 계정 통합"
+	},
+	"subscription": {
+		"expirationDate": "만료일",
+		"canceled": "취소됨",
+		"unsubscribe": "구독 해지",
+		"confirmUnsubscribe": {
+			"submit": "구독 중단",
+			"title": "정말 계속하시겠어요?"
+		},
+		"currentSubscription": "현재 구독",
+		"subscriptionGift": "구독 선물",
+		"friendEmail": "친구 이메일",
+		"subscription": "구독",
+		"playerNotFound": "플레이어를 찾을 수 없습니다",
+		"enterEmail": "이메일 입력"
+	},
+	"promocodes": {
+		"title": "프로모션 코드 입력",
+		"desc": "이곳에서는 새 프로모션 코드를 활성화하거나 자신의 계정에서 이전에 활성화한 프로모션 코드 기록을 열람할 수 있습니다.",
+		"activate": "활성화",
+		"inProcess": "처리 중",
+		"received": "수령함",
+		"activated": "활성화함",
+		"messages": {
+			"invalid": "유효하지 않은 프로모션 코드입니다. 나중에 다시 시도하거나 지원팀에 문의하세요.",
+			"limited": "이미 사용한 프로모션 코드입니다",
+			"alreadyUsed": "이 프로모션 코드는 이미 사용되었습니다",
+			"internalError": "해당 프로모션 코드 적용 중 문제가 발생했습니다. 나중에 다시 시도하거나 지원팀에 문의하세요.",
+			"alreadyHaveTrial": "체험 기간은 한 번만 활성화할 수 있습니다",
+			"applied": "프로모션 코드 적용 완료"
+		},
+		"loadMore": "더 불러오기"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "인디",
+		"action": "액션",
+		"rpg": "RPG",
+		"simulation": "시뮬레이션",
+		"action-adventure": "액션 어드벤처",
+		"adventure": "어드벤처",
+		"puzzle": "퍼즐",
+		"strategy": "전략",
+		"sports": "스포츠",
+		"mmo": "MMO",
+		"horror": "공포",
+		"casino": "카지노",
+		"casual": "캐주얼"
+	},
+	"ban": {
+		"title": "사용자 차단 확인",
+		"permanent": "영구적으로 차단되었습니다",
+		"until": "차단되었습니다. 기한:",
+		"selectError": "하나 이상 선택해야 합니다",
+		"tip": "더는 실수하지 마세요",
+		"submit": "확인"
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "구독 요금제 변경",
+		"contactSupport": "지원팀에 문의",
+		"toSupport": "support",
+		"subscriptionChangeDescription": "구독 요금제를 변경하려면 지원팀에 문의하세요.",
+		"currentSubscriptionDescription": "현재 {title} 요금제를 {endsOn}까지 구독 중입니다.",
+		"back": "뒤로",
+		"changePlan": "요금제 변경",
+		"subscribe": "구독",
+		"activated": "활성화함",
+		"totalPrice": "총 가격",
+		"perMonth": "개월",
+		"chooseSubscriptionPlan": "구독 요금제 선택",
+		"oneMonthSubscriptionTitle": "1개월 구독",
+		"threeMonthSubscriptionTitle": "3개월 구독",
+		"sixMonthSubscriptionTitle": "6개월 구독",
+		"twelveMonthSubscriptionTitle": "12개월 구독",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "{saveAmount} 절약"
+	},
+	"downloadingLauncher": {
+		"title": "런처 다운로드 중",
+		"note": "다운로드가 시작하지 않았다면 {tryAgainButtonText}하세요.",
+		"tryAgain": "다시 시도",
+		"steps": {
+			"install": {
+				"title": "설치",
+				"description": "우측 상단의 \"지금 다운로드\"를 클릭해 다운로드된 파일을 여세요.\n\n팝업 창이 나타나면 \"실행\"을 클릭하세요. 설치가 시작하면 \"계속\"을 누르고 설치가 완료될 때까지 기다리세요."
+			},
+			"authorize": {
+				"title": "로그인 또는 가입",
+				"description": "계정에 로그인할 때 \"Xsolla 계정\"을 클릭하고 정보를 입력해 로그인할 수 있습니다.\n\n또한 Facebook, Google, Twitch 등 제시된 소셜 네트워크로 로그인할 수도 있습니다."
+			},
+			"play": {
+				"title": "플레이 시작",
+				"description": "화면 상단의 \"실행\" 버튼을 눌러 게임을 시작하세요!\n\n설치 경로를 선택하고 게임 로딩이 끝날 때까지 기다리세요. 그럼 어디 시작해 볼까요."
+			}
+		},
+		"help": {
+			"title": "문제가 있나요?",
+			"description": "이 링크를 통해 문의해 주세요."
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "최신 소식을 받아 보세요",
+		"email": "이메일",
+		"footnote": "구독 시 업데이트, 홍보, 특별 캠페인 등에 대한 LTG 및 {xsollaFamilyLink}의 이메일을 수신하는 것에 동의하게 됩니다. 원하는 경우 언제든 동의를 취소할 수 있습니다",
+		"thankYou": "새 소식을 구독해 주셔서 감사합니다",
+		"titleVariant2": "네! 한정 혜택, 특별한 선물 제안, LTG와의 구매 및 판매에 대한 맞춤형 팁을 보내주세요.",
+		"invalidEmail": "유효하지 않은 이메일",
+		"description": "뉴스레터를 구독해 게임에 대한 최신 소식을 받아 보세요",
+		"remindMeLater": "나중에",
+		"subscribe": "구독"
+	}
+}

@@ -1,0 +1,156 @@
+@import './animation.scss';
+@import './pallete.scss';
+
+:root {
+	--index: calc(1vh + 1vw);
+
+	--border-mask: linear-gradient(45deg, white, white) content-box,
+		linear-gradient(45deg, white, white);
+	--radius-large: 1.4rem;
+	--scroller: 0.3rem;
+}
+
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: var(--darker-color);
+	font-size: calc(var(--index) * 0.45);
+	color: white;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	// OVERSCROLL EFFECT OFF
+	overscroll-behavior-y: none;
+}
+
+button,
+textarea,
+input {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+button,
+a {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 5rem;
+	width: calc(100% - 10rem);
+}
+
+.no-select {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+.reverse {
+	transform: scale(-1);
+}
+
+.clamp-1 {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.clamp-2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.clamp-3 {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+// SCROLL BAR
+
+::-webkit-scrollbar {
+	width: var(--scroller);
+	height: var(--scroller);
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: var(--scroller);
+	background-color: var(--main-color);
+
+	&:active {
+		background-color: rgba(133, 118, 253, 0.6);
+	}
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill {
+	-webkit-text-fill-color: white;
+	-webkit-box-shadow: 0 0 0 300px var(--dark-color) inset;
+	//transition: all 5000s ease-in-out 0s;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: black;
+}
+
+::selection {
+	color: white;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+	transition: all 0s linear;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+#htmlNews {
+	b {
+		font-weight: 700;
+	}
+	a {
+		text-decoration: underline;
+		color: var(--main-color);
+	}
+	img {
+		width: 100%;
+		background: linear-gradient(
+				to bottom,
+				transparent 31%,
+				rgba(130, 113, 255, 0.25) 61%,
+				rgba(130, 113, 255, 0.4) 100%
+			)
+			border-box;
+		border-radius: 1vw;
+		border: 0.5vw solid transparent;
+	}
+}

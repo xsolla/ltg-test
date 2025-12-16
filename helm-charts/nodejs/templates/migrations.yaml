@@ -1,0 +1,36 @@
+{{- if .Values.migrations.enabled }}
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ template "nodejs.fullname" . }}-migrations
+  annotations:
+    "helm.sh/hook": {{ .Values.migrations.hook | quote }}
+    "helm.sh/hook-delete-policy": before-hook-creation
+spec:
+  activeDeadlineSeconds: {{ .Values.migrations.timeout }}
+  template:
+    spec:
+      containers:
+      - name: {{ template "nodejs.fullname" . }}-migrations
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        envFrom:
+          - secretRef:
+              name: {{ include "nodejs.fullname" . }}
+          - configMapRef:
+              name: {{ include "nodejs.fullname" . }}
+        {{- if .Values.customSecret }}
+          - secretRef:
+              name: {{ .Values.customSecret }}
+        {{- end }}
+        env:          
+        {{- range .Values.env }}
+        - name: {{ .name }}
+          value: {{ .value | quote }}
+        {{- end }}
+        command: 
+          - sh
+          - -c 
+          - {{ .Values.migrations.cmd }}
+      restartPolicy: Never
+  backoffLimit: 4
+  {{- end }}

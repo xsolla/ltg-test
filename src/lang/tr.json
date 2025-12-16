@@ -1,0 +1,286 @@
+{
+	"common": {
+		"404": "Sayfa bulunamadı",
+		"500": "Lütfen daha sonra tekrar dene veya teknik destekle iletişime geç",
+		"close": "Kapat",
+		"back": "Geri",
+		"next": "Sonraki",
+		"somethingWentWrong": "Bir sorun oluştu",
+		"oops": "Tüh...",
+		"haveToLogIn": "Önce giriş yapmalısın"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Gizlilik Politikası onayı",
+		"desc": "Bu kutuları işaretleyerek Hizmet Şartları ve LTG Gizlilik Politikasını bütünüyle okuyup anladığını onaylamış olursun",
+		"privacyAndCookiesPolicy": "Gizlilik ve çerez politikası",
+		"termsOfService": "Hizmet Şartları",
+		"submit": "Tamam"
+	},
+	"cookies": {
+		"message": "Kullanıcı deneyimini geliştirmek için bu sitede çerez kullanıyoruz. Kullanılan tüm çerezlerin eksiksiz görünümü için lütfen kişisel ayarlarına bak.",
+		"customize": "Özelleştir",
+		"accept": "Kabul Et",
+		"decline": "Reddet"
+	},
+	"menu": {
+		"home": "Ana Sayfa",
+		"games": "Oyunlar",
+		"news": "Haberler",
+		"forum": "Forum",
+		"support": "Destek",
+		"login": "Giriş Yap",
+		"download": "Hemen İndir",
+		"profile": "Profil",
+		"logout": "Çıkış Yap"
+	},
+	"footer": {
+		"allRightsReserved": "Tüm hakları saklıdır.",
+		"termsOfService": "Hizmet Şartları",
+		"privacyAndCookiesPolicy": "Gizlilik ve çerez politikası",
+		"aboutLongTaleGames": "LTG Hakkında"
+	},
+	"auth": {
+		"title": "Yetkilendirme",
+		"desc": "Xsolla Hesabı ile yetkilendirme, LTG Multiverse'e erişmenin basit ve güvenli bir yoludur. Kişisel verilerin güvenli ellerde!",
+		"tip": "Xsolla Hesabı hakkında daha fazla bilgi için Kullanıcı Rehberine bak",
+		"guide": "Kullanıcı Rehberi"
+	},
+	"news": {
+		"showMore": "Daha fazla göster",
+		"readMore": "Daha fazla oku",
+		"allNews": "Tüm haberler",
+		"relatedNews": "İlgili haberler"
+	},
+	"paymentSuccess": {
+		"title": "Ödeme Başarılı Sayfası",
+		"desc": "Lütfen bekle"
+	},
+	"techWorks": {
+		"title": "Bakım devam ediyor"
+	},
+	"gift": {
+		"loading": {
+			"title": "Hediyen açılıyor",
+			"desc": "Hediye bağlantın uygulanana kadar lütfen bekle"
+		},
+		"received": {
+			"title": "Her şey hazır",
+			"desc": "Hediyeni aldın"
+		},
+		"autoDownloadLauncher": {
+			"title": "Her şey hazır",
+			"desc": "Lütfen indirilen dosyayı açın ve oyunun tadını çıkarın! <br/> İndirme başlamadıysa, lütfen <a href=\"/?autoDownloadLauncher=true\"><u>tekrar deneyin</u></a>"
+		}
+	},
+	"access": {
+		"title": "Erişim Sayfası"
+	},
+	"game": {
+		"shareToGetReward": "Ödül kazanmak için paylaş",
+		"shareEllipsis": "Paylaş",
+		"shareToRewardMoreVariants": "Diğer",
+		"shareByCopyLink": "Bağlantıyı kopyala",
+		"learnMore": "Daha fazla öğren",
+		"website": "İnternet Sitesi",
+		"subscribe": "Abone Ol",
+		"gift": "Bir arkadaşa hediye et",
+		"buy": "Şimdi satın al",
+		"play": "Şimdi oyna",
+		"dashboard": "Pano",
+		"download": "İndir",
+		"sale": "İndirim",
+		"release": "Çıkış tarihi",
+		"modifications": "Değişiklikler",
+		"genre": "Tür",
+		"languages": "Diller",
+		"platform": "Platform",
+		"developer": "Geliştirici",
+		"cloud": "Bulut",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "Sistem gereksinimleri",
+			"minimal": "Minimum",
+			"recommended": "Önerilen",
+			"os": "İşletim Sistemi",
+			"cpu": "İşlemci",
+			"ram": "Bellek",
+			"gpu": "Ekran Kartı",
+			"directx": "DirectX",
+			"network": "Ağ",
+			"storage": "Depolama"
+		},
+		"news": "Haberler",
+		"showMore": "Daha fazla göster",
+		"screenshots": "Ekran Görüntüleri",
+		"videos": "Videolar",
+		"modifier": "Değişiklik",
+		"firstDays": "İlk {qty} gün",
+		"firstMonth": "İlk ay",
+		"month": "/ay",
+		"then": "sonra",
+		"activateTrial": "Denemeyi etkinleştir",
+		"firstMonths": "İlk {qty} ay",
+		"nextMonths": "Sonraki {qty} ay",
+		"promocodeApplied": "Promosyon kodu uygulandı!",
+		"changePromocode": "Kodu değiştir",
+		"selectPromocode": "Promosyon kodunu seçin",
+		"promocodeNotSelected": "Seçilmedi"
+	},
+	"home": {
+		"games": {
+			"title": "Oyunlar"
+		},
+		"sliders": {
+			"learnMore": "Daha fazla öğren",
+			"downloadNow": "Hemen indir"
+		},
+		"news": {
+			"title": "Haberler",
+			"moreNews": "Daha fazla haber"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Promosyon Kodları",
+		"personalInfo": "Kişisel bilgi",
+		"myGames": "Oyunlarım"
+	},
+	"personalInfo": {
+		"mergeAccount": "Long Tale Games hesabını birleştir"
+	},
+	"subscription": {
+		"expirationDate": "Bitiş tarihi",
+		"canceled": "İptal Edildi",
+		"unsubscribe": "Abonelikten Çık",
+		"confirmUnsubscribe": {
+			"submit": "Aboneliği durdur",
+			"title": "Emin misin?"
+		},
+		"currentSubscription": "Mevcut abonelik",
+		"subscriptionGift": "Abonelik hediyesi",
+		"friendEmail": "Arkadaş e-postası",
+		"subscription": "Abonelik",
+		"playerNotFound": "Oyuncu bulunamadı",
+		"enterEmail": "E-posta gir"
+	},
+	"promocodes": {
+		"title": "Promosyon kodu gir",
+		"desc": "Burada yeni bir promosyon kodunu etkinleştirebilir veya hesabında daha önce etkinleştirilen promosyon kodlarının geçmişini görüntüleyebilirsin.",
+		"activate": "Etkinleştir",
+		"inProcess": "İşleniyor",
+		"received": "Alındı",
+		"activated": "Etkinleştirildi",
+		"messages": {
+			"invalid": "Geçersiz promosyon kodu. Lütfen daha sonra tekrar dene veya destekle iletişime geç",
+			"limited": "Bu promosyon kodunu daha önce kullandın",
+			"alreadyUsed": "Bu promosyon kodu daha önce kullanılmış",
+			"internalError": "Bu promosyon kodunu uygularken bir sorun oluştu. Lütfen daha sonra tekrar dene veya destekle iletişime geç",
+			"alreadyHaveTrial": "Deneme süresini yalnızca bir kez etkinleştirebilirsin",
+			"applied": "Promosyon kodu başarıyla uygulandı"
+		},
+		"loadMore": "Daha fazla yükle"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "Bağımsız",
+		"action": "Aksiyon",
+		"rpg": "RPG",
+		"simulation": "Simülasyon",
+		"action-adventure": "Aksiyon Macera",
+		"adventure": "Macera",
+		"puzzle": "Bulmaca",
+		"strategy": "Strateji",
+		"sports": "Spor",
+		"mmo": "MMO",
+		"horror": "Korku",
+		"casino": "Gazino",
+		"casual": "Basit"
+	},
+	"ban": {
+		"title": "Kullanıcı Engel Onayı",
+		"permanent": "Kalıcı olarak engellendin",
+		"until": "Şu tarihe kadar engellendin:",
+		"selectError": "En az bir şey seçmen gerek",
+		"tip": "Hata yapmayı bırakmalısın",
+		"submit": "Tamam"
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "ABONELİK PLANINI DEĞİŞTİR",
+		"contactSupport": "DESTEKLE İLETİŞİME GEÇ",
+		"toSupport": "support",
+		"subscriptionChangeDescription": "Abonelik planını değiştirmek istersen lütfen destekle iletişime geç.",
+		"currentSubscriptionDescription": "Şu anda bir {title} planın var. {endsOn} tarihinde sona eriyor.",
+		"back": "GERİ",
+		"changePlan": "PLANI DEĞİŞTİR",
+		"subscribe": "Abone Ol",
+		"activated": "Etkinleştirildi",
+		"totalPrice": "Toplam fiyat",
+		"perMonth": "ay",
+		"chooseSubscriptionPlan": "ABONELİK PLANINI SEÇ",
+		"oneMonthSubscriptionTitle": "1 Aylık Abonelik",
+		"threeMonthSubscriptionTitle": "3 Aylık Abonelik",
+		"sixMonthSubscriptionTitle": "6 Aylık Abonelik",
+		"twelveMonthSubscriptionTitle": "12 Aylık Abonelik",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "{saveAmount} tasarruf edin"
+	},
+	"downloadingLauncher": {
+		"title": "BAŞLATICI İNDİRİLİYOR",
+		"note": "İndirme işlemin başlamadıysa {tryAgainButtonText}.",
+		"tryAgain": "tekrar dene",
+		"steps": {
+			"install": {
+				"title": "Yükle",
+				"description": "Sağ üst köşede yer alan \"Hemen indir\" düğmesine tıkla ve indirilen dosyayı aç.\n\nKarşına bir açılır pencere çıkarsa \"Çalıştır\" seçeneğine tıkla. Yükleyici başladıktan sonra \"Devam Et\" seçeneğine tıkla ve kurulumun tamamlanmasını bekle."
+			},
+			"authorize": {
+				"title": "Giriş Yap veya Kaydol",
+				"description": "Hesabına giriş yaparken \"Xsolla Hesabı\" seçeneğine tıklayarak ve bilgilerini doldurarak giriş yapabileceksin.\n\nGiriş yapmak için Facebook, Google, Twitch veya önerilen diğer sosyal ağlarını da kullanabilirsin."
+			},
+			"play": {
+				"title": "Oynamaya başla",
+				"description": "Oyunu başlatmak için ekranın üst kısmındaki düğmeye tıkla!\n\nYükleme yolunu seç ve oyunun yüklenmesinin tamamlanmasını bekle. Başlayalım."
+			}
+		},
+		"help": {
+			"title": "Sorun mu yaşıyorsun?",
+			"description": "Sorununu çözmek için bu bağlantıları keşfet."
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "Bizimle gelişmelerden haberdar ol",
+		"email": "E-posta",
+		"footnote": "Abone olarak LTG ve {xsollaFamilyLink} tarafından güncellemeler, promosyonlar, eşsiz girişimler ve daha fazlası ile ilgili e-posta almayı kabul edersin. Dilediğin zaman bu e-postalara abonelikten çıkabilirsin",
+		"thankYou": "Güncellemelerimize abone olduğun için teşekkür ederiz",
+		"titleVariant2": "Evet! Bana LTG ile alışveriş ve satış için özel teklifleri, eşsiz hediye fikirlerini ve kişiselleştirilmiş ipuçlarını gönder.",
+		"invalidEmail": "Geçersiz e-posta",
+		"description": "Haber bültenine kaydol ve oyunda olup bitenlerden haberdar ol",
+		"remindMeLater": "Daha sonra anımsat",
+		"subscribe": "Abone Ol"
+	}
+}

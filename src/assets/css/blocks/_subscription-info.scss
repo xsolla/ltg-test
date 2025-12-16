@@ -1,0 +1,27 @@
+.subscription-info {
+	font-size: 12px;
+	line-height: 15px;
+
+	h3 {
+		width: 100%;
+		margin: 0 0 5px 0;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+		color: var(--white);
+	}
+
+	p {
+		margin: 0 10px 0 0;
+		color: var(--extra-color-1);
+	}
+
+	a {
+		color: var(--link-color);
+	}
+}
+
+.subscription-info__row {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,195 @@
+:root,
+[data-theme='default'] {
+	//Порядок описания:
+	//элемент
+	//состояние(опц.)
+	//свойство элемента
+
+	// COLORS
+	--ui-black: #000000;
+	--ui-white: #ffffff;
+	--ui-rgb-white: 255, 255, 255;
+	--ui-accent-blue: #8576fd;
+	--ui-accent-purple: #a857ff;
+	--ui-accent-dark-blue: #120f2c;
+	--ui-gradient-main: linear-gradient(
+		315deg,
+		var(--ui-accent-blue) 0%,
+		var(--ui-accent-purple) 100%
+	); //нужен?
+	--ui-accent-light: #1a1736;
+
+	//accent colors
+	--accent-red: #e70016;
+	--accent-green: #49ac25;
+
+	//link
+	--link-color: var(--ui-accent-blue);
+	--link-color-hover: var(--ui-white);
+
+	//header
+	--header-scroll-bg: linear-gradient(
+		250deg,
+		var(--ui-accent-purple) 0%,
+		var(--ui-accent-blue) 100%
+	);
+
+	//cards
+	--game-card: #181533; //??
+	--game-card-hover: #201d3e; //??
+	--news-card: linear-gradient(180deg, rgba(70, 64, 118, 0) 31.25%, #383261 61.98%, #483e88 100%);
+	--news-card-hover: linear-gradient(
+		180deg,
+		rgba(40, 30, 67, 0) 31.25%,
+		#28194f 61.98%,
+		#26164d 100%
+	);
+
+	//modal
+	--modal-overlay: rgba(18, 15, 44, 0.8);
+	--modal-dialog-bg: #1a1736; //??
+	--modal-title-color: var(--ui-white);
+	--modal-text-color: #a09cb9; //??
+
+	//paginator
+	--paginator-border: rgba(133, 118, 253, 1);
+	--paginator-bg: linear-gradient(225deg, rgba(33, 26, 53, 1) 0%, rgba(33, 26, 53, 1) 100%);
+	--paginator-text: var(--ui-rgb-white);
+	--paginator-active-bg: linear-gradient(
+		225deg,
+		var(--ui-accent-blue) 0%,
+		var(--ui-accent-purple) 100%
+	);
+	--paginator-disabled-border: rgba(133, 118, 253, 0.25);
+	--paginator-disabled-bg: linear-gradient(
+		225deg,
+		rgba(33, 26, 53, 1) 0%,
+		rgba(33, 26, 53, 1) 100%
+	); //??
+	--paginator-disabled-text: rgba(var(--ui-rgb-white), 0.4);
+
+	//buttons
+	--button-accent-bg: linear-gradient(
+		249deg,
+		var(--ui-accent-purple) 0%,
+		var(--ui-accent-blue) 100%
+	);
+	--button-accent-color: var(--ui-rgb-white);
+	--button-accent-hover-bg: linear-gradient(249deg, var(--ui-white) 0%, var(--ui-white) 100%);
+	--button-accent-hover-color: var(--ui-accent-blue);
+	--button-accent-disabled-color: rgba(var(--ui-rgb-white), 0.4);
+
+	--button-outline-bg: var(--ui-accent-dark-blue);
+	--button-outline-border: var(--ui-accent-blue);
+	--button-outline-color: var(--ui-white);
+	--button-outline-hover-bg: var(--ui-white);
+	--button-outline-hover-border: var(--ui-white);
+	--button-outline-hover-color: var(--ui-accent-blue);
+	--button-outline-active-bg: #1c1745; //?
+	--button-outline-disabled-color: #a09cb9; //?
+	--button-outline-selected-bg: linear-gradient(
+		225deg,
+		var(--ui-accent-purple) 0%,
+		var(--ui-accent-blue) 100%
+	);
+
+	--button-default-bg: #1a1736; //?
+	--button-default-color: var(--ui-white);
+	--button-default-hover-bg: #302b59; //?
+	--button-default-active-color: #63687a; //?
+	--button-default-disabled-color: #63687a; //?
+	--button-default-selected-bg: var(--ui-accent-blue);
+
+	//badge
+	--badge-bg-default: var(--ui-accent-blue);
+	--badge-bg-sale: var(--accent-red);
+	--badge-bg-success: var(--accent-green);
+	--badge-bg-process: var(--ui-accent-blue);
+	--badge-colored-purple: var(--ui-accent-purple);
+	--badge-color: var(--white);
+
+	//dropdown
+	--dropdown-bg: var(--ui-accent-blue);
+
+	//Цвета, которые указаны в проекте, но нет в переменных
+	//--dark-color: #211a35;
+	//--extra-color-1: #a7a5bd;
+	//--extra-color-2: #52506b;
+	--game-unit-bg-hover: #2a2749;
+	//--card-bg: #383261;
+	//--card-title-color: var(--white);
+	//--card-text-color-major: var(--white);
+	//--card-text-color-minor: #8f94a5;
+	//--button-hover-bg-color: #1c1745;
+	//--button-hover-border-color: var(--primary-color);
+	//--button-hover-box-shadow: 0 0 7px #a857ff;
+
+	//  custom-select
+	//  #2e2a4d;
+	//  #171530;
+
+	//  form
+	//  #302d53;
+	//  game-card
+	//  #181533;
+	//  #a09cb9;
+
+	//  game-hero
+	//  linear-gradient(180deg, rgba(19, 16, 45, 0) 0%, #130f2c 100%);
+	//  linear-gradient(180deg, rgba(70, 64, 118, 0) 32%, #383261 62%, #483e88);
+	//  linear-gradient(180deg, #120f2c 0%, #120f2c 59.23%, #1d193e 81.77%, #483e88 100%);
+
+	//  option
+	//  #9592b2;
+
+	//  promocode
+	//  #1a1736;
+	//  #5e5b76;
+	//  #302d53;
+	//  .badge--success {
+	//    background: #49ac25;
+	//  }
+	//  .badge--process {
+	//    background: #8576fd;
+	//  }
+	//  .badge--error {
+	//    background: #ff1f11;
+	//  }
+
+	//  sidebar
+	//  #BCB4FF;
+
+	//TYPOGRAPHY
+	--primary-font: 'Montserrat', sans-serif;
+
+	--root-size-font: 16px;
+	--root-size-line-height: 140%;
+
+	--ui-title-1: calc(var(--root-size-font) * 1.875); //30px
+	--ui-title-2: calc(var(--root-size-font) * 1.75); //28px
+	--ui-title-3: calc(var(--root-size-font) * 1.625); //26px
+	--ui-title-4: calc(var(--root-size-font) * 1.5); //24px
+	--ui-title-5: calc(var(--root-size-font) * 1.375); //22px
+	--ui-title-6: calc(var(--root-size-font) * 1.25); //20px
+
+	--ui-text-1: calc(var(--root-size-font) * 1.25); //20px
+	--ui-text-2: calc(var(--root-size-font) * 1.125); //18px
+	--ui-text-3: calc(var(--root-size-font) * 1); //16px
+	--ui-text-4: calc(var(--root-size-font) * 0.875); //14px
+	--ui-text-5: calc(var(--root-size-font) * 0.75); //12px
+
+	//MEDIA
+	--max-mid-desktop: 1440px;
+	--max-tablet: 1024px;
+	--max-mobile: 768px;
+	--mid-mobile: 600px;
+}
+
+$mid-tablet: 1200px;
+$max-tablet: 1024px;
+$max-mobile: 768px;
+$mid-mobile: 600px;
+$min-mobile: 480px;
+
+[data-theme='light'] {
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+if ! command -v pnpm &> /dev/null
+then
+	echo "Error: pnpm not found. Make sure that it is installed and can be found in PATH."
+	echo "Visit https://pnpm.io/ for installation instructions."
+	exit 127
+fi
+
+pnpx lint-staged && pnpm run build

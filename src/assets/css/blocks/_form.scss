@@ -1,0 +1,77 @@
+.form--promocode {
+	.form__label {
+		display: block;
+		margin-bottom: 10px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17px;
+		color: #ffffff;
+	}
+
+	.form-row {
+		display: flex;
+		width: 100%;
+
+		@media screen and (max-width: $min-mobile) {
+			flex-wrap: wrap;
+		}
+	}
+
+	.form__input {
+		width: calc(100% - 130px);
+		height: 40px;
+		margin-right: 10px;
+		padding: 10px;
+		background: var(--primary-dark-text-color);
+		border: 1px solid var(--reskin-primary-dark-color);
+		box-sizing: border-box;
+		color: #ffffff;
+
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		@media screen and (max-width: $min-mobile) {
+			width: 100%;
+			margin: 0 0 10px 0;
+		}
+		&:focus {
+			outline: none;
+			border: 1px solid #8576fd;
+		}
+	}
+
+	.form__button {
+		width: 130px;
+		height: 40px;
+		text-transform: uppercase;
+		color: #ffffff;
+		background: #120f2c;
+		border: 1px solid #8576fd;
+		border-radius: 30px;
+		cursor: pointer;
+
+		@media screen and (max-width: $min-mobile) {
+			width: 100%;
+		}
+	}
+}
+
+.form__message {
+	margin-top: 0;
+
+	p {
+		margin: 20px 0 0 0;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+
+		&.error {
+			color: #ff0000;
+		}
+	}
+}

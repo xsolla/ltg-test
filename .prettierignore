@@ -1,0 +1,16 @@
+.nuxt
+.idea
+.output
+node_modules
+.env
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.editorconfig
+.gitlab-ci.yml
+src/public/dists
+
+**/*.yml
+**/*.yaml
+**/*.tsv
+**/*.md

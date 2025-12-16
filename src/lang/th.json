@@ -1,0 +1,228 @@
+{
+	"common": {
+		"404": "ไม่พบหน้าจอ",
+		"500": "กรุณาลองอีกครั้งในภายหลัง หรือติดต่อฝ่ายสนับสนุน",
+		"close": "ปิด",
+		"back": "กลับ",
+		"next": "ถัดไป",
+		"somethingWentWrong": "มีบางอย่างผิดพลาด",
+		"oops": "โอ๊ะ...",
+		"haveToLogIn": "คุณต้องล็อกอินก่อน"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "ยืนยันนโยบายความเป็นส่วนตัว",
+		"desc": "เมื่อติ๊กกล่องข้อความเหล่านี้ คุณได้ยืนยันว่าอ่านและทำความเข้าใจข้อตกลงการให้บริการและนโยบายความเป็นส่วนตัวของ LTG ทั้งหมดแล้ว",
+		"privacyAndCookiesPolicy": "นโยบายความเป็นส่วนตัวและคุกกี้",
+		"termsOfService": "ข้อตกลงการให้บริการ",
+		"submit": "ตกลง"
+	},
+	"cookies": {
+		"message": "เราใช้คุกกี้บนเว็บไซต์นี้เพื่อปรับปรุงประสบการณ์ใช้งานของคุณ สำหรับรายละเอียดการใช้งานคุกกี้ทั้งหมด กรุณาดูได้ที่การตั้งค่าส่วนตัวของคุณ",
+		"customize": "ปรับแต่ง",
+		"accept": "ยอมรับ",
+		"decline": "ปฏิเสธ"
+	},
+	"menu": {
+		"home": "หน้าหลัก",
+		"games": "เกม",
+		"news": "ข่าวสาร",
+		"forum": "ฟอรัม",
+		"support": "สนับสนุน",
+		"login": "ล็อกอิน",
+		"download": "ดาวน์โหลดเลย",
+		"profile": "โปรไฟล์",
+		"logout": "ล็อกเอาต์"
+	},
+	"footer": {
+		"allRightsReserved": "สงวนลิขสิทธิ์.",
+		"termsOfService": "ข้อตกลงการให้บริการ",
+		"privacyAndCookiesPolicy": "นโยบายความเป็นส่วนตัวและคุกกี้",
+		"aboutLongTaleGames": "เกี่ยวกับ LTG"
+	},
+	"auth": {
+		"title": "การอนุญาต",
+		"desc": "การอนุญาตด้วยบัญชี Xsolla เป็นวิธีง่ายๆ และปลอดภัยในการเข้าถึง LTG Multiverse ทั้งหมด ข้อมูลของคุณจะได้รับการเก็บไว้เป็นอย่างดี!",
+		"tip": "ดูรายละเอียดเพิ่มเติมเรื่องบัญชี Xsolla ได้ที่คู่มือผู้ใช้งาน",
+		"guide": "คู่มือผู้ใช้งาน"
+	},
+	"news": {
+		"showMore": "แสดงเพิ่ม",
+		"readMore": "อ่านเพิ่ม",
+		"allNews": "ข่าวทั้งหมด",
+		"relatedNews": "ข่าวที่เกี่ยวข้อง"
+	},
+	"paymentSuccess": {
+		"title": "หน้าชำระเงินสำเร็จ",
+		"desc": "กรุณารอสักครู่"
+	},
+	"techWorks": {
+		"title": "กำลังอยู่ระหว่างซ่อมบำรุง"
+	},
+	"gift": {
+		"loading": {
+			"title": "กำลังเปิดของขวัญ",
+			"desc": "กรุณารอสักครู่จนกว่าลิงก์ของขวัญจะใช้งานได้"
+		},
+		"received": {
+			"title": "เรียบร้อย",
+			"desc": "คุณได้รับของขวัญ"
+		},
+		"autoDownloadLauncher": {
+			"title": "เรียบร้อย",
+			"desc": "โปรดเปิดไฟล์ที่ดาวน์โหลดและเพลิดเพลินกับเกมของคุณ! <br/> หากการดาวน์โหลดไม่เริ่มต้น กรุณา<a href=\"/?autoDownloadLauncher=true\"><u>ลองอีกครั้ง</u></a>"
+		}
+	},
+	"access": {
+		"title": "หน้าการเข้าถึง"
+	},
+	"game": {
+		"learnMore": "เรียนรู้เพิ่มเติม",
+		"website": "เว็บไซต์",
+		"subscribe": "สมัครรับ",
+		"gift": "ส่งของขวัญให้เพื่อน",
+		"buy": "ซื้อเลย",
+		"play": "เล่นเลย",
+		"dashboard": "แดชบอร์ด",
+		"download": "ดาวน์โหลด",
+		"sale": "ลดราคา",
+		"release": "วันปล่อยเกม",
+		"modifications": "ปรับแต่ง",
+		"genre": "ประเภท",
+		"languages": "ภาษา",
+		"platform": "แพลตฟอร์ม",
+		"developer": "ผู้พัฒนา",
+		"cloud": "คลาวด์",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "ความต้องการของระบบ",
+			"minimal": "ขั้นต่ำ",
+			"recommended": "แนะนำ",
+			"os": "OS",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "เครือข่าย",
+			"storage": "พื้นที่เก็บข้อมูล"
+		},
+		"news": "ข่าวสาร",
+		"showMore": "แสดงเพิ่ม",
+		"screenshots": "สกรีนช็อต",
+		"videos": "วิดีโอ",
+		"modifier": "การปรับแต่ง",
+		"firstDays": "{qty} วันแรก",
+		"firstMonth": "เดือนแรก",
+		"month": "ต่อเดือน",
+		"then": "จากนั้น",
+		"activateTrial": "เปิดใช้งานทดลองเล่น",
+		"firstMonths": "{qty} เดือนแรก",
+		"nextMonths": "{qty} เดือนถัดไป",
+		"promocodeApplied": "ใช้โค้ดโปรโมชั่นแล้ว!",
+		"changePromocode": "เปลี่ยนรหัส",
+		"selectPromocode": "เลือกโค้ดโปรโมชั่น",
+		"promocodeNotSelected": "ไม่ได้เลือก"
+	},
+	"home": {
+		"games": {
+			"title": "เกม"
+		},
+		"sliders": {
+			"learnMore": "เรียนรู้เพิ่มเติม",
+			"downloadNow": "ดาวน์โหลดเลย"
+		},
+		"news": {
+			"title": "ข่าวสาร",
+			"moreNews": "ข่าวสารเพิ่มเติม"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "โปรโมโค้ด",
+		"personalInfo": "ข้อมูลส่วนตัว",
+		"myGames": "เกมของฉัน"
+	},
+	"personalInfo": {
+		"mergeAccount": "รวมบัญชี Long Tale Games"
+	},
+	"subscription": {
+		"expirationDate": "วันหมดอายุ",
+		"canceled": "ยกเลิกแล้ว",
+		"unsubscribe": "เลิกสมัครรับ",
+		"confirmUnsubscribe": {
+			"submit": "หยุดการสมัครรับ",
+			"title": "แน่ใจหรือไม่?"
+		},
+		"currentSubscription": "การสมัครรับปัจจุบัน",
+		"subscriptionGift": "ของขวัญสมัครรับ",
+		"friendEmail": "อีเมลเพื่อน",
+		"subscription": "การสมัครรับ",
+		"playerNotFound": "ไม่พบผู้เล่น",
+		"enterEmail": "ใส่อีเมล"
+	},
+	"promocodes": {
+		"title": "ใส่โปรโมโค้ด",
+		"desc": "ตรงนี้คุณสามารถเปิดใช้งานโปรโมโค้ดใหม่หรือดูประวัติการใช้โปรโมโค้ดที่ผ่านมาของบัญชีคุณได้",
+		"activate": "เปิดใช้งาน",
+		"inProcess": "ดำเนินการอยู่",
+		"received": "ได้รับแล้ว",
+		"activated": "เปิดใช้งานแล้ว",
+		"messages": {
+			"invalid": "โปรโมโค้ดไม่ถูกต้อง กรุณาลองอีกครั้งในภายหลัง หรือติดต่อฝ่ายสนับสนุน",
+			"limited": "คุณใช้โปรโมโค้ดนี้ไปแล้ว",
+			"alreadyUsed": "โปรโมโค้ดนี้ถูกใช้ไปแล้ว",
+			"internalError": "มีบางอย่างผิดพลาดขณะใช้โปรโมโค้ด กรุณาลองอีกครั้งในภายหลัง หรือติดต่อฝ่ายสนับสนุน",
+			"alreadyHaveTrial": "คุณสามารถเปิดใช้งานช่วงทดลองใช้ได้ครั้งเดียวเท่านั้น",
+			"applied": "ใช้โปรโมโค้ดสำเร็จแล้ว"
+		},
+		"loadMore": "โหลดเพิ่ม"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "อินดี้",
+		"action": "แอ็กชัน",
+		"rpg": "RPG",
+		"simulation": "จำลองสถานการณ์",
+		"action-adventure": "แอ็กชัน-ผจญภัย",
+		"adventure": "ผจญภัย",
+		"puzzle": "ปริศนา",
+		"strategy": "กลยุทธ์",
+		"sports": "กีฬา",
+		"mmo": "MMO",
+		"horror": "สยองขวัญ",
+		"casino": "คาสิโน",
+		"casual": "แคชชวล"
+	},
+	"ban": {
+		"title": "ยืนยันการแบนผู้เล่น",
+		"permanent": "คุณถูกบล็อกอย่างถาวร",
+		"until": "คุณถูกบล็อกจนถึง",
+		"selectError": "ต้องเลือกอย่างน้อยสักอย่าง",
+		"tip": "คุณเลิกทำผิดพลาดแล้ว",
+		"submit": "ตกลง"
+	}
+}

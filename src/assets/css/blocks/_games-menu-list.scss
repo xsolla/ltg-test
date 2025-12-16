@@ -1,0 +1,41 @@
+//.games-menu-list__item {
+//	a {
+//		position: relative;
+//		display: block;
+//		//margin: 10px 0;
+//		padding: 10px 20px;
+//		text-decoration: none;
+//		text-transform: uppercase;
+//		font-weight: 700;
+//		font-size: 12px;
+//		line-height: 15px;
+//		color: var(--white);
+//		transition: color 0.2s ease-in;
+//
+//		&:hover {
+//			color: var(--darker-color);
+//		}
+//	}
+//
+//	svg {
+//		opacity: 0;
+//		transform: translateX(0);
+//		fill: transparent;
+//		transition: all 0.3s ease-in;
+//	}
+//
+//	&:hover {
+//		background-color: transparent !important;
+//
+//		a {
+//			color: var(--darker-color);
+//		}
+//
+//		svg {
+//			transform: translateX(5px);
+//			opacity: 1;
+//			fill: var(--darker-color);
+//			transition: all 0.3s ease-out;
+//		}
+//	}
+//}

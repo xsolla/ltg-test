@@ -1,0 +1,98 @@
+.app-block {
+	background-color: #14102d;
+	/* todo replace with proper url */
+	background-image: url('http://localhost/xsolla-login/bgImage.png');
+	background-size: 100% auto;
+	background-position-y: 0;
+}
+
+.app-block_scrollbar-view {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#mainBody {
+	background-color: #161d45;
+	border-radius: 0;
+	max-width: 440px;
+
+	/*form:before {*/
+	/*	content: 'possible header without i18n';*/
+	/*}*/
+
+	form div div div {
+		color: rgba(255, 255, 255, 0.7);
+		text-align: center;
+	}
+}
+
+.primary-social__babka {
+	margin-bottom: 0;
+}
+
+.button-element {
+	border-radius: 0;
+	background: linear-gradient(94.67deg, #fdff96 -0.08%, #ffca43 99.92%);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+.login_disclaimer_wrapper {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.primary-social-buttons {
+	div:first-child {
+		height: 48px;
+	}
+}
+
+.secondary-social {
+	width: 48px;
+	height: 48px;
+	margin: 0 8px;
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.other-social-buttons {
+	width: 48px;
+	height: 48px;
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		div {
+			display: none;
+		}
+	}
+}
+
+.or-line__wrapper {
+	div {
+		text-transform: uppercase;
+	}
+}
+
+.input-with-mask {
+	border-radius: 0;
+}
+
+.login_disclaimer_wrapper {
+	margin-top: 16px;
+}
+
+@media (max-width: 480px) {
+	#mainBody {
+		max-width: unset;
+	}
+}

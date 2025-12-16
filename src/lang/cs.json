@@ -1,0 +1,286 @@
+{
+	"common": {
+		"404": "Stránka nenalezena",
+		"500": "Zkus to později znovu, nebo kontaktuj technickou podporu",
+		"close": "Zavřít",
+		"back": "Zpět",
+		"next": "Další",
+		"somethingWentWrong": "Něco se nezdařilo",
+		"oops": "Jejda...",
+		"haveToLogIn": "Nejdřív se musíš přihlásit"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Potvrzení Zásad ochrany soukromí",
+		"desc": "Zaškrtnutím těchto políček potvrzuješ, že Podmínkám poskytování služby a Zásadám LTG ohledně ochrany soukromí plně rozumíš",
+		"privacyAndCookiesPolicy": "Zásady ochrany soukromí a používání souborů cookie",
+		"termsOfService": "Podmínky poskytování služby",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "Soubory cookie na tomto webu využíváme k prohloubení tvého uživatelského zážitku. Kompletní přehled všech použitých souborů cookie najdeš ve svém přizpůsobeném nastavení.",
+		"customize": "Přizpůsobit",
+		"accept": "Přijmout",
+		"decline": "Odmítnout"
+	},
+	"menu": {
+		"home": "Domů",
+		"games": "Hry",
+		"news": "Zprávy",
+		"forum": "Fórum",
+		"support": "Podpora",
+		"login": "Přihlásit se",
+		"download": "Stáhnout hned",
+		"profile": "Profil",
+		"logout": "Odhlásit se"
+	},
+	"footer": {
+		"allRightsReserved": "Všechna práva vyhrazena.",
+		"termsOfService": "Podmínky poskytování služby",
+		"privacyAndCookiesPolicy": "Zásady ochrany soukromí a používání souborů cookie",
+		"aboutLongTaleGames": "Informace o LTG"
+	},
+	"auth": {
+		"title": "Autorizace",
+		"desc": "Autorizace pomocí účtu Xsolla je jednoduchým a bezpečným způsobem, jak získat přístup k LTG Multiverse. Tvé osobní údaje jsou v dobrých rukách!",
+		"tip": "Více informací o účtu Xsolla najdeš v uživatelské příručce",
+		"guide": "Uživatelská příručka"
+	},
+	"news": {
+		"showMore": "Zobrazit více",
+		"readMore": "Přečíst více",
+		"allNews": "Všechny zprávy",
+		"relatedNews": "Související zprávy"
+	},
+	"paymentSuccess": {
+		"title": "Stránka o úspěšné platbě",
+		"desc": "Okamžik, prosím"
+	},
+	"techWorks": {
+		"title": "Probíhá údržba"
+	},
+	"gift": {
+		"loading": {
+			"title": "Tvůj dárek se rozbaluje",
+			"desc": "Počkej, než se použije tvůj odkaz na dárek"
+		},
+		"received": {
+			"title": "Vše je připraveno",
+			"desc": "Máš svůj dárek"
+		},
+		"autoDownloadLauncher": {
+			"title": "Vše je připraveno",
+			"desc": "Prosím, otevřete stažený soubor a užijte si hru! <br/> Pokud se stahování nerozjelo, zkuste to <a href=\"/?autoDownloadLauncher=true\"><u>znovu</u></a>"
+		}
+	},
+	"access": {
+		"title": "Přístupová stránka"
+	},
+	"game": {
+		"shareToGetReward": "Sdílejte a získejte odměny",
+		"shareEllipsis": "Sdílet",
+		"shareToRewardMoreVariants": "Další",
+		"shareByCopyLink": "Kopírovat odkaz",
+		"learnMore": "Zjistit více",
+		"website": "Web",
+		"subscribe": "Předplatit",
+		"gift": "Obdarovat přítele",
+		"buy": "Koupit hned",
+		"play": "Hrát hned",
+		"dashboard": "Ovládací panel",
+		"download": "Stáhnout",
+		"sale": "Výprodej",
+		"release": "Datum vydání",
+		"modifications": "Modifikace",
+		"genre": "Žánr",
+		"languages": "Jazyky",
+		"platform": "Platforma",
+		"developer": "Vývojář",
+		"cloud": "Cloud",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "Požadavky na systém",
+			"minimal": "Minimální",
+			"recommended": "Doporučené",
+			"os": "OS",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Síť",
+			"storage": "Úložiště"
+		},
+		"news": "Zprávy",
+		"showMore": "Zobrazit více",
+		"screenshots": "Snímky obrazovky",
+		"videos": "Videa",
+		"modifier": "Úprava",
+		"firstDays": "První dny ({qty})",
+		"firstMonth": "První měsíc",
+		"month": "měsíčně",
+		"then": "potom",
+		"activateTrial": "Aktivovat zkušební verzi",
+		"firstMonths": "První {qty} měsíce",
+		"nextMonths": "Další {qty} měsíce",
+		"promocodeApplied": "Promokód použit!",
+		"changePromocode": "Změnit kód",
+		"selectPromocode": "Vyberte promokód",
+		"promocodeNotSelected": "Nevybráno"
+	},
+	"home": {
+		"games": {
+			"title": "Hry"
+		},
+		"sliders": {
+			"learnMore": "Zjistit více",
+			"downloadNow": "Stáhnout hned"
+		},
+		"news": {
+			"title": "Zprávy",
+			"moreNews": "Více zpráv"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Promo kódy",
+		"personalInfo": "Osobní údaje",
+		"myGames": "Mé hry"
+	},
+	"personalInfo": {
+		"mergeAccount": "Spojit účet Long Tale Games"
+	},
+	"subscription": {
+		"expirationDate": "Datum expirace",
+		"canceled": "Zrušeno",
+		"unsubscribe": "Zrušit předplatné",
+		"confirmUnsubscribe": {
+			"submit": "Zastavit předplatné",
+			"title": "Víš to jistě?"
+		},
+		"currentSubscription": "Aktuální předplatné",
+		"subscriptionGift": "Dárek k předplatnému",
+		"friendEmail": "E-mail přítele",
+		"subscription": "Předplatné",
+		"playerNotFound": "Hráč nenalezen",
+		"enterEmail": "Zadej e-mail"
+	},
+	"promocodes": {
+		"title": "Zadej promo kód",
+		"desc": "Zde můžeš aktivovat nový promo kód, nebo se podívat na historii dříve aktivovaných promo kódů na svém účtu",
+		"activate": "Aktivovat",
+		"inProcess": "Zpracovává se",
+		"received": "Přijato",
+		"activated": "Aktivováno",
+		"messages": {
+			"invalid": "Neplatný promo kód. Zkus to později znovu, nebo kontaktuj podporu",
+			"limited": "Tento promo kód už máš využitý",
+			"alreadyUsed": "Tento promo kód již byl využit",
+			"internalError": "Při aplikaci promo kódu se něco pokazilo. Zkus to později znovu, nebo se obrať na podporu",
+			"alreadyHaveTrial": "Zkušební dobu můžeš aktivovat jen jednou",
+			"applied": "Promo kód byl úspěšně použit"
+		},
+		"loadMore": "Načíst více"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "Indie",
+		"action": "Akční",
+		"rpg": "RPG",
+		"simulation": "Simulace",
+		"action-adventure": "Akční adventura",
+		"adventure": "Adventura",
+		"puzzle": "Logické hry",
+		"strategy": "Strategie",
+		"sports": "Sporty",
+		"mmo": "MMO",
+		"horror": "Horory",
+		"casino": "Kasinové hry",
+		"casual": "Oddechové hry"
+	},
+	"ban": {
+		"title": "Potvrzení zablokování uživatele",
+		"permanent": "Byl ti trvale zablokován přístup",
+		"until": "Tvůj přístup je blokován do",
+		"selectError": "Musíš vybrat alespoň něco",
+		"tip": "Musíš přestat dělat chyby",
+		"submit": "OK"
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "ZMĚŇTE PLÁN SVÉHO PŘEDPLATNÉHO",
+		"contactSupport": "KONTAKTOVAT PODPORU",
+		"toSupport": "podporu",
+		"subscriptionChangeDescription": "Pokud chcete plán předplatného změnit, obraťte se na {support}.",
+		"currentSubscriptionDescription": "Momentálně používáte předplatné {title}. To skončí dne {endsOn}.",
+		"back": "ZPĚT",
+		"changePlan": "ZMĚNIT PLÁN",
+		"subscribe": "Předplatit",
+		"activated": "Aktivováno",
+		"totalPrice": "Celková cena",
+		"perMonth": "měsíc",
+		"chooseSubscriptionPlan": "VYBERTE PLÁN PŘEDPLATNÉHO",
+		"oneMonthSubscriptionTitle": "1měsíční předplatné",
+		"threeMonthSubscriptionTitle": "3měsíční předplatné",
+		"sixMonthSubscriptionTitle": "6měsíční předplatné",
+		"twelveMonthSubscriptionTitle": "12měsíční předplatné",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "Ušetřete {saveAmount}"
+	},
+	"downloadingLauncher": {
+		"title": "STAHUJE SE LAUNCHER",
+		"note": "Pokud se stahování nespustilo, {tryAgainButtonText}.",
+		"tryAgain": "zkuste to znovu",
+		"steps": {
+			"install": {
+				"title": "Instalovat",
+				"description": "Klikněte na tlačítko „Stáhnout hned“ v pravém horním rohu a otevřete stažený soubor.\n\nPokud se objeví okno místní nabídky, klikněte v něm na „Spustit“. Jakmile se instalátor spustí, klikněte na „Pokračovat“ a počkejte na dokončení instalace."
+			},
+			"authorize": {
+				"title": "Přihlaste se nebo se zaregistrujte",
+				"description": "Po přihlášení ke svému účtu se budete moct přihlásit kliknutím na tlačítko „Účet Xsolla“ a vyplněním údajů.\n\nK přihlášení můžete také použít Facebook, Google, Twitch nebo jinou navrženou sociální síť."
+			},
+			"play": {
+				"title": "Začít hrát",
+				"description": "Klikněte na tlačítko v horní části obrazovky a tím spusťte hru!\n\nVyberte instalační cestu a počkejte, než se hra načte. Tak do toho."
+			}
+		},
+		"help": {
+			"title": "Máte potíže?",
+			"description": "S řešením problémů vám pomůžou tyto odkazy."
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "Zůstaňte s námi v kontaktu",
+		"email": "E-mail",
+		"footnote": "Přihlášením odběru vyjadřujete souhlas s přijímáním e-mailů od LTG a {xsollaFamilyLink} ohledně aktualizací, promo akcí, jedinečných iniciativ a dalších témat. Odběr těchto e-mailů si můžete kdykoli odhlásit.",
+		"thankYou": "Děkujeme za přihlášení k odběru novinek",
+		"titleVariant2": "Ano! Zasílejte mi exkluzivní nabídky, jedinečné nápady na dárky a tipy na míru o nakupování a prodeji s LTG.",
+		"invalidEmail": "Neplatný e-mail",
+		"description": "Zaregistrujte se k odběru newsletteru a mějte přehled o všem, co se kolem naší hry děje.",
+		"remindMeLater": "Připomenout později",
+		"subscribe": "Předplatit"
+	}
+}

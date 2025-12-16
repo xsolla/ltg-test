@@ -1,0 +1,118 @@
+[
+	{
+		"name": "fs-cc",
+		"type": "essential"
+	},
+	{
+		"name": "fs-cc-updated",
+		"type": "essential"
+	},
+	{
+		"name": "ga",
+		"type": "analytical"
+	},
+	{
+		"name": "_gid",
+		"type": "analytical"
+	},
+	{
+		"name": "_gat",
+		"type": "analytical"
+	},
+	{
+		"name": "1P_JAR",
+		"type": "analytical"
+	},
+	{
+		"name": "IDE",
+		"type": "analytical"
+	},
+	{
+		"name": "APISID",
+		"type": "analytical"
+	},
+	{
+		"name": "HSID",
+		"type": "analytical"
+	},
+	{
+		"name": "NID",
+		"type": "analytical"
+	},
+	{
+		"name": "SAPISID",
+		"type": "analytical"
+	},
+	{
+		"name": "SIDCC",
+		"type": "analytical"
+	},
+	{
+		"name": "SID",
+		"type": "analytical"
+	},
+	{
+		"name": "SSID",
+		"type": "analytical"
+	},
+	{
+		"name": "_ga_ZGK4BYBBG3",
+		"type": "analytical"
+	},
+	{
+		"name": "__cf_bm",
+		"type": "functional"
+	},
+	{
+		"name": "experiments-fingerprint",
+		"type": "targeting"
+	},
+	{
+		"name": "experiments-raw",
+		"type": "targeting"
+	},
+	{
+		"name": "attribution_user_id",
+		"type": "targeting"
+	},
+	{
+		"name": "yandexuid",
+		"type": "analytical"
+	},
+	{
+		"name": "_ym_visorc",
+		"type": "analytical"
+	},
+	{
+		"name": "_ym_uid",
+		"type": "analytical"
+	},
+	{
+		"name": "_ym_d",
+		"type": "analytical"
+	},
+	{
+		"name": "sync_cookie_csrf",
+		"type": "analytical"
+	},
+	{
+		"name": "_ym_isad",
+		"type": "analytical"
+	},
+	{
+		"name": "yuidss",
+		"type": "analytical"
+	},
+	{
+		"name": "yabs-sid",
+		"type": "analytical"
+	},
+	{
+		"name": "i",
+		"type": "analytical"
+	},
+	{
+		"name": "ymex",
+		"type": "analytical"
+	}
+]

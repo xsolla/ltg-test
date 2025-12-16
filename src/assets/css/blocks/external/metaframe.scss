@@ -1,0 +1,62 @@
+:root {
+	--metaframe-tablet-offset: 70px;
+}
+
+body > #__metaframe {
+	/*
+	Override the default z-index (9999) of the metaframe wrapper.
+	To change the default z-index of the metaframe wrapper,
+	it's also necessary to eliminate the large z-indices in the lif-landings repository
+	where the metaframe is also used.
+	*/
+	//z-index: 4;
+}
+
+@media (min-width: 1100px) and (max-width: 1800px) {
+	#metaframeContainer {
+		top: calc(70px + var(--metaframe-tablet-offset));
+	}
+
+	#metaframeContainer > #CollapsibleWrapper > div:last-child > iframe {
+		top: calc(92px + var(--metaframe-tablet-offset));
+
+		& + div {
+			top: calc(92px + var(--metaframe-tablet-offset));
+		}
+	}
+
+	#metaframeContainer > #CollapsibleWrapper > div:not(:last-child) > div {
+		top: calc(92px + var(--metaframe-tablet-offset));
+	}
+
+	#metaframeContainer > #CollapsibleWrapper #login {
+		top: auto;
+	}
+
+	#metaframeContainer > #CollapsibleWrapper #babka-overlay-iframe {
+		top: calc(92px + var(--metaframe-tablet-offset));
+	}
+}
+
+@media (max-width: 1100px) {
+	#metaframeContainer {
+		justify-content: center;
+	}
+
+	#metaframeContainer > div:first-child {
+		pointer-events: none;
+	}
+
+	#metaframeContainer:has(#CollapsibleWrapper > iframe) > div:first-child {
+		pointer-events: auto;
+	}
+}
+
+#__xsolla_metaframe_container > div.go1926725538 {
+
+	@media screen and (max-width: 1200px){
+		top: 70px!important;
+	}
+
+}
+

@@ -1,0 +1,21 @@
+:root {
+	--white: #fff;
+	--main-color: #8576fd;
+	--dark-color: #211a35;
+	--medium-darker-color: #1a1736;
+	--darker-color: #120f2c;
+
+	--glass-dark: rgba(222, 239, 255, 0.05);
+
+	--main-gradient: linear-gradient(250deg, #a857ff 0%, #8576fd 100%);
+	--card-gradient-y: linear-gradient(180deg, rgba(70, 64, 118, 0) 32%, #383261 62%, #483e88 100%);
+	--card-gradient-x: linear-gradient(270deg, #352b6b 0%, rgba(37, 26, 70, 0) 100%);
+
+	--dark-gradient: linear-gradient(
+		90deg,
+		#120f2c 0%,
+		rgba(18, 15, 44, 0.79) 37%,
+		rgba(18, 15, 44, 0.48) 70%,
+		rgba(18, 15, 44, 0) 100%
+	);
+}

@@ -1,0 +1,125 @@
+{{- range .Values.workers }}
+{{- $rangeItem := . -}}
+{{- with $ }}
+{{- $autoscaling := $rangeItem.autoscaling | default dict }}
+{{- if $autoscaling.enabled }}
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: {{ template "nodejs.fullname" . }}-worker-{{ $rangeItem.name }}
+  labels:
+    role: worker-{{ $rangeItem.name }}
+    {{- include "nodejs.labels" . | nindent 4 }}
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: {{ template "nodejs.fullname" . }}-worker-{{ $rangeItem.name }}
+  minReplicas: {{ $rangeItem.autoscaling.minReplicas }}
+  maxReplicas: {{ $rangeItem.autoscaling.maxReplicas }}
+  metrics:
+    {{- if $rangeItem.autoscaling.targetCPUUtilizationPercentage }}
+    - type: Resource
+      resource:
+        name: cpu
+        targetAverageUtilization: {{ $rangeItem.autoscaling.targetCPUUtilizationPercentage }}
+    {{- end }}
+    {{- if $rangeItem.autoscaling.targetMemoryUtilizationPercentage }}
+    - type: Resource
+      resource:
+        name: memory
+        targetAverageUtilization: {{ $rangeItem.autoscaling.targetMemoryUtilizationPercentage }}
+    {{- end }}
+{{- end }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ template "nodejs.fullname" . }}-worker-{{ $rangeItem.name }}
+  labels:
+    {{ include "nodejs.labels" . | nindent 4 }}
+spec:
+  {{- if not $autoscaling.enabled }}
+  replicas: {{ $rangeItem.replicaCount }}
+  {{- end }}
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      role: worker-{{ $rangeItem.name }}
+      {{- include "nodejs.labels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        role: worker-{{ $rangeItem.name }}
+        {{- include "nodejs.labels" . | nindent 8 }}
+      annotations:
+        {{- if $rangeItem.restartOnUpgrade }}
+        rollme: {{ randAlphaNum 5 | quote }}
+        {{- end }}
+    spec:
+      {{- if $rangeItem.terminationGracePeriodSeconds }}
+      terminationGracePeriodSeconds: {{ $rangeItem.terminationGracePeriodSeconds }}
+      {{- end }}
+      {{- if .Values.image.secret }}
+      imagePullSecrets:
+      - name: {{ .Values.image.secret }}
+      {{- end }}
+      containers:
+      {{- if $rangeItem.image }}
+      - image:  "{{ $rangeItem.image.repository }}:{{ $rangeItem.image.tag }}"
+      {{- else }}
+      - image:  "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+      {{- end }}
+        imagePullPolicy: IfNotPresent
+        {{- if $rangeItem.command }}
+        command: ["/bin/sh", "-c", "{{ $rangeItem.command }}"]
+        {{- end }}
+        name: {{ template "nodejs.fullname" . }}-worker-{{ $rangeItem.name }}
+        {{- with $rangeItem.resources }}
+        resources:
+          {{- toYaml . | nindent 10 }}
+        {{- end }}
+        envFrom:
+          - secretRef:
+              name: {{ include "nodejs.fullname" . }}
+          - configMapRef:
+              name: {{ include "nodejs.fullname" . }}
+        {{- if .Values.customSecret }}
+          - secretRef:
+              name: {{ .Values.customSecret }}
+        {{- end }}
+        env:          
+        {{- range .Values.env }}
+          - name: {{ .name }}
+            value: {{ .value | quote }}
+        {{- end }}
+      {{- with $rangeItem.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      affinity:
+      {{- if $rangeItem.affinity }}
+        {{- with $rangeItem.affinity }}
+          {{- toYaml . | nindent 8 }}
+        {{- end }}
+      {{- else }}
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: "role"
+                  operator: In
+                  values:
+                  - worker-{{ $rangeItem.name }}
+              topologyKey: "kubernetes.io/hostname"
+      {{- end }}
+      {{- with $rangeItem.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+---
+{{- end }}
+{{- end }}

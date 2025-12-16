@@ -1,0 +1,232 @@
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('graphik-lcg/GraphikLCG-Regular.eot');
+	src:
+		local('Graphik LCG Regular'),
+		local('GraphikLCG-Regular'),
+		url('graphik-lcg/GraphikLCG-Regular.woff2') format('woff2'),
+		url('graphik-lcg/GraphikLCG-Regular.woff') format('woff'),
+		url('graphik-lcg/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+		url('graphik-lcg/GraphikLCG-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('graphik-lcg/GraphikLCG-Medium.eot');
+	src:
+		local('Graphik LCG Medium'),
+		local('GraphikLCG-Medium'),
+		url('graphik-lcg/GraphikLCG-Medium.woff2') format('woff2'),
+		url('graphik-lcg/GraphikLCG-Medium.woff') format('woff'),
+		url('graphik-lcg/GraphikLCG-Medium.eot?#iefix') format('embedded-opentype'),
+		url('graphik-lcg/GraphikLCG-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('graphik-lcg/GraphikLCG-Semibold.eot');
+	src:
+		local('Graphik LCG Semibold'),
+		local('GraphikLCG-Semibold'),
+		url('graphik-lcg/GraphikLCG-Semibold.woff2') format('woff2'),
+		url('graphik-lcg/GraphikLCG-Semibold.woff') format('woff'),
+		url('graphik-lcg/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('graphik-lcg/GraphikLCG-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('graphik-lcg/GraphikLCG-Bold.eot');
+	src:
+		local('Graphik LCG Bold'),
+		local('GraphikLCG-Bold'),
+		url('graphik-lcg/GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'),
+		url('graphik-lcg/GraphikLCG-Bold.woff2') format('woff2'),
+		url('graphik-lcg/GraphikLCG-Bold.woff') format('woff'),
+		url('graphik-lcg/GraphikLCG-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pilat Wide';
+	src:
+		local('Pilat Wide Black'),
+		local('PilatWide-Black'),
+		url('pilat-wide/PilatWide-Black.woff2') format('woff2'),
+		url('pilat-wide/PilatWide-Black.woff') format('woff'),
+		url('pilat-wide/PilatWide-Black.otf') format('opentype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pilat Wide';
+	src:
+		local('Pilat Wide Bold'),
+		local('PilatWide-Bold'),
+		url('pilat-wide/PilatWide-Bold.woff2') format('woff2'),
+		url('pilat-wide/PilatWide-Bold.woff') format('woff'),
+		url('pilat-wide/PilatWide-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pilat Wide';
+	src:
+		local('Pilat Wide Regular'),
+		local('PilatWide-Regular'),
+		url('pilat-wide/PilatWide-Regular.woff2') format('woff2'),
+		url('pilat-wide/PilatWide-Regular.woff') format('woff'),
+		url('pilat-wide/PilatWide-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Thin'),
+		local('Inter-Thin'),
+		url('inter/Inter-Thin.woff2'),
+		url('inter/Inter-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter ExtraLight'),
+		local('Inter-ExtraLight'),
+		url('inter/Inter-ExtraLight.woff2'),
+		url('inter/Inter-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Light'),
+		local('Inter-Light'),
+		url('inter/Inter-Light.woff2'),
+		url('inter/Inter-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Regular'),
+		local('Inter-Regular'),
+		url('inter/Inter-Regular.woff2'),
+		url('inter/Inter-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Medium'),
+		local('Inter-Medium'),
+		url('inter/Inter-Medium.woff2'),
+		url('inter/Inter-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter SemiBold'),
+		local('Inter-SemiBold'),
+		url('inter/Inter-SemiBold.woff2'),
+		url('inter/Inter-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Bold'),
+		local('Inter-Bold'),
+		url('inter/Inter-Bold.woff2'),
+		url('inter/Inter-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter ExtraBold'),
+		local('Inter-ExtraBold'),
+		url('inter/Inter-ExtraBold.woff2'),
+		url('inter/Inter-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src:
+		local('Inter Black'),
+		local('Inter-Black'),
+		url('inter/Inter-Black.woff2'),
+		url('inter/Inter-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Goudy Trajan";
+	src: url("GoudyTrajan/GoudyTrajan-Regular.eot");
+	src:
+			local("Goudy Trajan"),
+			url("GoudyTrajan/GoudyTrajan-Regular.eot?#iefix") format("embedded-opentype"),
+			url("GoudyTrajan/GoudyTrajan-Regular.woff2") format("woff2"),
+			url("GoudyTrajan/GoudyTrajan-Regular.woff") format("woff"),
+			url("GoudyTrajan/GoudyTrajan-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Goudy Trajan";
+	src: url("GoudyTrajan/GoudyTrajan-Bold.eot");
+	src:
+			local("Goudy Trajan"),
+			url("GoudyTrajan/GoudyTrajan-Bold.eot?#iefix") format("embedded-opentype"),
+			url("GoudyTrajan/GoudyTrajan-Bold.woff2") format("woff2"),
+			url("GoudyTrajan/GoudyTrajan-Bold.woff") format("woff"),
+			url("GoudyTrajan/GoudyTrajan-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("Ubuntu/Ubuntu-Regular.eot");
+	src:
+			local("Ubuntu"),
+			url("Ubuntu/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"),
+			url("Ubuntu/Ubuntu-Regular.woff2") format("woff2"),
+			url("Ubuntu/Ubuntu-Regular.woff") format("woff"),
+			url("Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

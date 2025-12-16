@@ -1,0 +1,222 @@
+{
+	"common": {
+		"404": "ページが見つかりません",
+		"500": "後ほどふたたびお試しいただくか、テクニカルサポートにご連絡ください",
+		"close": "閉じる",
+		"back": "戻る",
+		"next": "次へ",
+		"somethingWentWrong": "問題が発生しました",
+		"oops": "すみません…",
+		"haveToLogIn": "先にログインしてください"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "プライバシーポリシーの承諾",
+		"desc": "これらの箱にチェックを入れることで、あなたは利用規約およびLTGプライバシーポリシーをすべて読み、理解したことを承諾します",
+		"privacyAndCookiesPolicy": "プライバシーとクッキーポリシー",
+		"termsOfService": "利用規約",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "このサイトではクッキーを利用し、閲覧者様のユーザー体験を向上させております。すべてのクッキーの使用に関する詳細情報につきましては、個人設定をご覧ください。",
+		"customize": "カスタマイズ",
+		"accept": "許可",
+		"decline": "拒否"
+	},
+	"menu": {
+		"home": "ホーム",
+		"games": "ゲーム",
+		"news": "ニュース",
+		"forum": "フォーラム",
+		"support": "サポート",
+		"login": "ログイン",
+		"download": "今すぐダウンロード",
+		"profile": "プロフィール",
+		"logout": "ログアウト"
+	},
+	"footer": {
+		"allRightsReserved": "All rights reserved.",
+		"termsOfService": "利用規約",
+		"privacyAndCookiesPolicy": "プライバシーとクッキーポリシー",
+		"aboutLongTaleGames": "LTGについて"
+	},
+	"auth": {
+		"title": "認証",
+		"desc": "Xsollaアカウントを使った認証は、LTG Multiverseにアクセスするためのシンプルかつ安全な方法です。個人情報はしっかりとお守りいたします！",
+		"tip": "Xsollaアカウントについての詳細は、ユーザーガイドをご覧ください",
+		"guide": "ユーザーガイド"
+	},
+	"news": {
+		"showMore": "さらに表示",
+		"readMore": "全文を読む",
+		"allNews": "すべてのニュース",
+		"relatedNews": "関連ニュース"
+	},
+	"paymentSuccess": {
+		"title": "決済完了画面",
+		"desc": "お待ちください"
+	},
+	"techWorks": {
+		"title": "メンテナンス作業中です"
+	},
+	"gift": {
+		"loading": {
+			"title": "ギフトを開封しています",
+			"desc": "ギフトリンクが適用されるまでお待ちください"
+		},
+		"received": {
+			"title": "準備完了です",
+			"desc": "ギフトを受け取りました"
+		},
+		"autoDownloadLauncher": {
+			"title": "準備完了です",
+			"desc": "ダウンロードされたファイルを開いてゲームをお楽しみください！ <br/> ダウンロードが開始されない場合は、<a href=\"/?autoDownloadLauncher=true\"><u>もう一度試してみてください</u></a>"
+		}
+	},
+	"access": {
+		"title": "アクセスページ"
+	},
+	"game": {
+		"learnMore": "詳細",
+		"website": "ウェブサイト",
+		"subscribe": "サブスクライブ",
+		"gift": "フレンドへのギフト",
+		"buy": "今すぐ購入",
+		"play": "今すぐプレイ",
+		"dashboard": "ダッシュボード",
+		"download": "ダウンロード",
+		"sale": "セール",
+		"release": "発売日",
+		"modifications": "MOD",
+		"genre": "ジャンル",
+		"languages": "言語",
+		"platform": "プラットフォーム",
+		"developer": "開発",
+		"cloud": "クラウド",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "動作環境",
+			"minimal": "最低",
+			"recommended": "推奨",
+			"os": "OS",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Network",
+			"storage": "ストレージ"
+		},
+		"news": "ニュース",
+		"showMore": "さらに表示",
+		"screenshots": "スクリーンショット",
+		"videos": "動画",
+		"modifier": "MOD",
+		"firstDays": "初回{qty}日間",
+		"firstMonth": "初月は",
+		"month": "/毎月",
+		"then": "、その後",
+		"activateTrial": "トライアルの有効化"
+	},
+	"home": {
+		"games": {
+			"title": "ゲーム"
+		},
+		"sliders": {
+			"learnMore": "詳細",
+			"downloadNow": "今すぐダウンロード"
+		},
+		"news": {
+			"title": "ニュース",
+			"moreNews": "もっと見る"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "プロモコード",
+		"personalInfo": "個人情報",
+		"myGames": "マイゲーム"
+	},
+	"personalInfo": {
+		"mergeAccount": "Long Tale Gamesアカウントの統合"
+	},
+	"subscription": {
+		"expirationDate": "失効日",
+		"canceled": "キャンセル済み",
+		"unsubscribe": "サブスクライブ解除",
+		"confirmUnsubscribe": {
+			"submit": "サブスクリプション停止",
+			"title": "よろしいですか？"
+		},
+		"currentSubscription": "現在のサブスクリプション",
+		"subscriptionGift": "サブスクリプションギフト",
+		"friendEmail": "フレンドのメールアドレス",
+		"subscription": "サブスクリプション",
+		"playerNotFound": "プレイヤーが見つかりません",
+		"enterEmail": "メールアドレスを入力"
+	},
+	"promocodes": {
+		"title": "プロモコードの入力",
+		"desc": "ここでは新たなプロモコードを有効化したり、これまでにアカウントで有効化したプロモコードの履歴を閲覧できます",
+		"activate": "有効化",
+		"inProcess": "処理中",
+		"received": "受け取り済み",
+		"activated": "有効化済み",
+		"messages": {
+			"invalid": "プロモコードが無効です。後ほどふたたびお試しいただくか、サポートにご連絡ください",
+			"limited": "このプロモコードは使用済みです",
+			"alreadyUsed": "このプロモコードはすでに使用しています",
+			"internalError": "このプロモコードの適用中に問題が発生しました。後ほどふたたびお試しいただくか、サポートにご連絡ください",
+			"alreadyHaveTrial": "無料体験は一度のみご利用いただけます",
+			"applied": "プロモコードの適用が完了しました"
+		},
+		"loadMore": "さらに読み込む"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "インディー",
+		"action": "アクション",
+		"rpg": "RPG",
+		"simulation": "シミュレーション",
+		"action-adventure": "アクションアドベンチャー",
+		"adventure": "アドベンチャー",
+		"puzzle": "パズル",
+		"strategy": "ストラテジー",
+		"sports": "スポーツ",
+		"mmo": "MMO",
+		"horror": "ホラー",
+		"casino": "カジノ",
+		"casual": "カジュアル"
+	},
+	"ban": {
+		"title": "ユーザー凍結の告知",
+		"permanent": "あなたは永久凍結処分が下されました",
+		"until": "あなたは次の期間まで凍結処分が下されました：",
+		"selectError": "問題が発生しました",
+		"tip": "過ちを犯すのをやめてください",
+		"submit": "OK"
+	}
+}

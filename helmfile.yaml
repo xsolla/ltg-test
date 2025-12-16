@@ -1,0 +1,56 @@
+releases:
+  - name: {{ env "RELEASE_NAME" | default "default" }}
+    chart: ./helm-charts/nodejs
+    namespace: {{ env "KUBE_NAMESPACE" | default "default" }}
+    version: git
+    values:
+      - customSecret: {{ env "RELEASE_NAME" | default "default" }}-custom
+        replicaCount: {{ .Environment.Values.appReplicas }}
+        image:
+          repository: {{ env "AWS_REGISTRY_IMAGE" | default "default" }}
+          tag: "{{ env "CI_PIPELINE_ID" | default "latest" }}"
+        annotations:
+          "app.gitlab.com/env": {{ env "CI_ENVIRONMENT_SLUG" }}
+          "app.gitlab.com/app": {{ env "CI_PROJECT_PATH_SLUG" }}
+        resources:
+          limits:
+            cpu: 1
+            memory: 1Gi
+          requests:
+            cpu: 100m
+            memory: 300Mi
+        service:
+          port: 3000
+        ingress:
+          ipWhitelist:
+            enabled: {{ .Environment.Values.ipWhitelist }}
+          hosts:
+            - host: {{ env "CI_ENVIRONMENT_HOST" | default "ssr.default" }}
+              paths:
+                - path: "/"
+          tls:
+            - secretName: {{ env "RELEASE_NAME" | default "default" }}-tls
+              hosts:
+                - {{ env "CI_ENVIRONMENT_HOST" | default "ssr.default" }}
+
+environments:
+  default:
+    values:
+      - ipWhitelist: true
+  development:
+    values:
+      - ipWhitelist: true
+      - appReplicas: 1
+  staging:
+    values:
+      - ipWhitelist: true
+      - appReplicas: 1
+  production:
+    values:
+      - ipWhitelist: false
+      - appReplicas: 1
+
+helmDefaults:
+  wait: false
+  timeout: 600
+  createNamespace: true

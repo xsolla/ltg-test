@@ -1,0 +1,19 @@
+.select {
+	background: #1a1736;
+	border: none;
+	height: 40px;
+	border-radius: 20px;
+	color: #ffffff;
+	padding: 12px 30px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+
+	option {
+		display: block;
+		height: 40px;
+		color: #ffffff;
+		padding: 12px 30px;
+		font-size: 14px;
+		line-height: 40px;
+	}
+}

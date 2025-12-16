@@ -1,0 +1,286 @@
+{
+	"common": {
+		"404": "Az oldal nem található",
+		"500": "Kérjük, próbáld újra, vagy vedd fel a kapcsolatot a műszaki ügyfélszolgálatunkkal",
+		"close": "Bezárás",
+		"back": "Vissza",
+		"next": "Következő",
+		"somethingWentWrong": "Valami félresikerült",
+		"oops": "Hoppá...",
+		"haveToLogIn": "Előbb be kell jelentkezned"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Adatvédelmi szabályzat elfogadása",
+		"desc": "Ezeknek a négyzeteknek a bejelölésével megerősíted, hogy teljes egészében elolvastad és megértetted a Szolgáltatási feltételeket és az LTG Adatvédelmi szabályzatát.",
+		"privacyAndCookiesPolicy": "Adatvédelmi és sütiszabályzat",
+		"termsOfService": "Szolgáltatási feltételek",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "Az oldalon a felhasználói élmény javítása érdekében sütiket (cookie) használunk. Az összes itt használt süti áttekintéséhez kérjük, tekintsd meg a személyes beállításaidat.",
+		"customize": "Testreszabás",
+		"accept": "Elfogadás",
+		"decline": "Elutasítás"
+	},
+	"menu": {
+		"home": "Kezdőlap",
+		"games": "Játékok",
+		"news": "Hírek",
+		"forum": "Fórum",
+		"support": "Ügyfélszolgálat",
+		"login": "Bejelentkezés",
+		"download": "Letöltés most",
+		"profile": "Profil",
+		"logout": "Kijelentkezés"
+	},
+	"footer": {
+		"allRightsReserved": "Minden jog fenntartva.",
+		"termsOfService": "Szolgáltatási feltételek",
+		"privacyAndCookiesPolicy": "Adatvédelmi és sütiszabályzat",
+		"aboutLongTaleGames": "Az LTG-ről"
+	},
+	"auth": {
+		"title": "Hitelesítés",
+		"desc": "Xsolla-fiókkal hitelesítve egyszerűen és biztonságosan érheted el az LTG Multiverse-t. Személyes adataid jó kezekben vannak!",
+		"tip": "Ha többet szeretnél megtudni a Xsolla-fiókról, nézd meg Felhasználói útmutatónkat",
+		"guide": "Felhasználói útmutató"
+	},
+	"news": {
+		"showMore": "Több infó",
+		"readMore": "Tovább olvasom",
+		"allNews": "Minden hír",
+		"relatedNews": "Kapcsolódó hírek"
+	},
+	"paymentSuccess": {
+		"title": "Sikeres fizetés oldal",
+		"desc": "Kérjük, várj"
+	},
+	"techWorks": {
+		"title": "Karbantartás folyamatban"
+	},
+	"gift": {
+		"loading": {
+			"title": "Ajándékod kicsomagolása",
+			"desc": "Kérjük, várj, amíg élesítjük ajándékhivatkozásodat"
+		},
+		"received": {
+			"title": "Minden kész",
+			"desc": "Megkaptad az ajándékodat"
+		},
+		"autoDownloadLauncher": {
+			"title": "Minden kész",
+			"desc": "Kérjük, nyissa meg a letöltött fájlt, és élvezze a játékot! <br/> Ha a letöltés nem indult el, kérjük, <a href=\"/?autoDownloadLauncher=true\"><u>próbálja újra</u></a>"
+		}
+	},
+	"access": {
+		"title": "Hozzáférési oldal"
+	},
+	"game": {
+		"shareToGetReward": "Megosztás jutalmakért",
+		"shareEllipsis": "Megosztás",
+		"shareToRewardMoreVariants": "Egyéb",
+		"shareByCopyLink": "Hivatkozás másolása",
+		"learnMore": "További infó",
+		"website": "Weboldal",
+		"subscribe": "Előfizetés",
+		"gift": "Ajándék egy barátodnak",
+		"buy": "Vedd meg most!",
+		"play": "Játssz most!",
+		"dashboard": "Irányítópult",
+		"download": "Letöltés",
+		"sale": "Akció",
+		"release": "Megjelenési dátum",
+		"modifications": "Módosítások",
+		"genre": "Műfaj",
+		"languages": "Nyelvek",
+		"platform": "Platform",
+		"developer": "Fejlesztő",
+		"cloud": "Felhő",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "Rendszerkövetelmények",
+			"minimal": "Minimális",
+			"recommended": "Ajánlott",
+			"os": "Op. rendszer",
+			"cpu": "Processzor",
+			"ram": "Memória",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Hálózat",
+			"storage": "Tárhely"
+		},
+		"news": "Hírek",
+		"showMore": "Több infó",
+		"screenshots": "Képernyőképek",
+		"videos": "Videók",
+		"modifier": "Módosítás",
+		"firstDays": "Első {qty} nap",
+		"firstMonth": "Első hónap",
+		"month": "havonta",
+		"then": "majd",
+		"activateTrial": "Próba aktiválása",
+		"firstMonths": "Első {qty} hónap",
+		"nextMonths": "Következő {qty} hónap",
+		"promocodeApplied": "Promóciós kód alkalmazva!",
+		"changePromocode": "Kód megváltoztatása",
+		"selectPromocode": "Válassza ki a promóciós kódot",
+		"promocodeNotSelected": "Nincs kiválasztva"
+	},
+	"home": {
+		"games": {
+			"title": "Játékok"
+		},
+		"sliders": {
+			"learnMore": "További infó",
+			"downloadNow": "Letöltés most"
+		},
+		"news": {
+			"title": "Hírek",
+			"moreNews": "További hírek"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Promóciós kódok",
+		"personalInfo": "Személyes adatok",
+		"myGames": "Játékaim"
+	},
+	"personalInfo": {
+		"mergeAccount": "Long Tale Games-fiók egyesítése"
+	},
+	"subscription": {
+		"expirationDate": "Lejárat ideje",
+		"canceled": "Megszüntetve",
+		"unsubscribe": "Előfizetés lemondása",
+		"confirmUnsubscribe": {
+			"submit": "Előfizetés leállítása",
+			"title": "Biztos vagy benne?"
+		},
+		"currentSubscription": "Jelenlegi előfizetés",
+		"subscriptionGift": "Előfizetési ajándék",
+		"friendEmail": "Baráti e-mail",
+		"subscription": "Előfizetés",
+		"playerNotFound": "A játékos nem található",
+		"enterEmail": "Add meg az e-mailt"
+	},
+	"promocodes": {
+		"title": "Promóciós kód beírása",
+		"desc": "Itt aktiválhatsz új promóciós kódot, vagy megtekintheted a korábban a fiókodon aktivált promóciós kódokat",
+		"activate": "Aktiválás",
+		"inProcess": "Folyamatban",
+		"received": "Megkaptad",
+		"activated": "Aktiválva",
+		"messages": {
+			"invalid": "Érvénytelen promóciós kód. Kérjük, próbáld újra, vagy vedd fel a kapcsolatot ügyfélszolgálatunkkal!",
+			"limited": "Már felhasználtad ezt a promóciós kódot",
+			"alreadyUsed": "Ezt a promóciós kódot már felhasználták",
+			"internalError": "Valami félresikerült a promóciós kód felhasználásakor. Kérjük, próbáld újra, vagy vedd fel a kapcsolatot ügyfélszolgálatunkkal!",
+			"alreadyHaveTrial": "A próbaidőszakot csak egyszer aktiválhatod",
+			"applied": "Sikeresen beváltottad a promóciós kódot"
+		},
+		"loadMore": "Továbbiak betöltése"
+	},
+	"platforms": {
+		"pc": "PC",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "Indie",
+		"action": "Akció",
+		"rpg": "Szerepjáték",
+		"simulation": "Szimuláció",
+		"action-adventure": "Akció-kaland",
+		"adventure": "Kaland",
+		"puzzle": "Fejtörő",
+		"strategy": "Stratégiai",
+		"sports": "Sport",
+		"mmo": "MMO",
+		"horror": "Horror",
+		"casino": "Kaszinó",
+		"casual": "Könnyed"
+	},
+	"ban": {
+		"title": "Felhasználó tiltásának megerősítése",
+		"permanent": "Véglegesen letiltottak",
+		"until": "Letiltottak eddig:",
+		"selectError": "Legalább egy dolgot választanod kell",
+		"tip": "Nem kellene ennyi hibáznod",
+		"submit": "OK"
+	},
+	"subscriptionPackages": {
+		"subscriptionChangeTitle": "ELŐFIZETÉSI CSOMAG MEGVÁLTOZTATÁSA",
+		"contactSupport": "ÜGYFÉLSZOLGÁLAT MEGKERESÉSE",
+		"toSupport": "support",
+		"subscriptionChangeDescription": "Ha meg szeretnéd hosszabbítani az előfizetésedet, lépj kapcsolatba az ügyfélszolgálattal!",
+		"currentSubscriptionDescription": "Jelenlegi előfizetésed: {title}. Lejár: {endsOn}.",
+		"back": "VISSZA",
+		"changePlan": "CSOMAGVÁLTÁS",
+		"subscribe": "Előfizetés",
+		"activated": "Aktiválva",
+		"totalPrice": "Teljes ár",
+		"perMonth": "havonta",
+		"chooseSubscriptionPlan": "ELŐFIZETÉSI CSOMAG VÁLASZTÁSA",
+		"oneMonthSubscriptionTitle": "1 hónapos előfizetés",
+		"threeMonthSubscriptionTitle": "3 hónapos előfizetés",
+		"sixMonthSubscriptionTitle": "6 hónapos előfizetés",
+		"twelveMonthSubscriptionTitle": "12 hónapos előfizetés",
+		"extendsSubscription": "Extend the subscription",
+		"saveAmount": "Takaríts meg {saveAmount}"
+	},
+	"downloadingLauncher": {
+		"title": "INDÍTÓ LETÖLTÉSE",
+		"note": "Ha nem indult el a letöltésed, {tryAgainButtonText}!",
+		"tryAgain": "próbáld újra",
+		"steps": {
+			"install": {
+				"title": "Telepítés",
+				"description": "Kattints a jobb felső sarokban található „Letöltés most” gombra, majd nyisd meg a letöltött fájlt!\n\nHa megjelenik a felugró ablak, kattints a „Futtatás” lehetőségre! Amint elindul a telepítő, kattints a „Folytatás” lehetőségre, és várd meg, amíg befejeződik a telepítés!"
+			},
+			"authorize": {
+				"title": "Bejelentkezés vagy regisztráció",
+				"description": "A fiókodba bejelentkezéskor a „Xsolla-fiók” lehetőségre kattintva tudsz bejelentkezni, és kitölteni az adataidat.\n\nA Facebookot, a Google-t, a Twitchet és bármelyik másik ajánlott közösségi hálózatot is használhatod a bejelentkezésre."
+			},
+			"play": {
+				"title": "Játék megkezdése",
+				"description": "Kattints a képernyő felső részén található gombra a játék megkezdéséhez!\n\nVálaszd ki a telepítési útvonalat, és várd meg, amíg a játék befejezi a töltést! Kalandra fel!"
+			}
+		},
+		"help": {
+			"title": "Problémát tapasztalsz?",
+			"description": "Látogass el ezekre a hivatkozásokra a problémáid orvoslásához!"
+		}
+	},
+	"newsletterConsent": {
+		"titleVariant1": "Maradj naprakész velünk!",
+		"email": "E-mail",
+		"footnote": "A feliratkozással hozzájárulsz, hogy e-maileket kapj az LTG-től és a {xsollaFamilyLink} tagjaitól frissítéssekkel, promóciókkal, egyedi kezdeményezésekkel és egyebekkel kapcsolatban. Ezekről az e-mailekről bármikor leiratkozhatsz.",
+		"thankYou": "Köszönjük, hogy feliratkoztál a frissítéseinkre",
+		"titleVariant2": "Igen! Kérem az LTG-vel kapcsolatos exkluzív ajánlatokat, az egyedi ajándékötleteket és a személyre szabott vásárlási és értékesítési tippeket.",
+		"invalidEmail": "Érvénytelen e-mail",
+		"description": "Iratkozz fel a hírlevélre, és légy naprakész a játékkal kapcsolatos események terén!",
+		"remindMeLater": "Emlékeztess később",
+		"subscribe": "Előfizetés"
+	}
+}

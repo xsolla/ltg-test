@@ -1,0 +1,189 @@
+{
+	"common": {
+		"close": "Close",
+		"back": "Back",
+		"next": "Next",
+		"somethingWentWrong": "Something went wrong",
+		"oops": "Oops...",
+		"404": "Page not found",
+		"500": "Please try again later or contact tech support",
+		"haveToLogIn": "You have to log in first"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Privacy Policy confirmation",
+		"desc": "By checking these boxes, you confirm that you have read and understood the Terms of Service and the LTG Privacy Policy in their entirety",
+		"privacyAndCookiesPolicy": "Privacy and cookies policy",
+		"termsOfService": "Terms of Service",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "We use cookies on this site to enhance your user experience. For a complete overview of all cookies used, please see your personal settings.",
+		"customize": "Customize",
+		"accept": "Accept",
+		"decline": "Decline"
+	},
+	"menu": {
+		"home": "Home",
+		"games": "Games",
+		"news": "News",
+		"forum": "Forum",
+		"support": "Support",
+		"login": "Log in",
+		"download": "Download Now",
+		"profile": "Profile",
+		"logout": "Logout"
+	},
+	"footer": {
+		"allRightsReserved": "All rights reserved.",
+		"termsOfService": "Terms of Service",
+		"privacyAndCookiesPolicy": "Privacy and cookies policy",
+		"aboutLongTaleGames": "About LTG"
+	},
+	"auth": {
+		"title": "Authorization",
+		"desc": "Authorization with Xsolla Wallet is a simple and secure way to access the LTG Multiverse. Your personal data is in good hands!",
+		"tip": "For more info on Xsolla Wallet, see the {guide}",
+		"guide": "User Guide"
+	},
+	"news": {
+		"showMore": "Show more",
+		"readMore": "Read more",
+		"allNews": "All news",
+		"relatedNews": "Related news"
+	},
+	"paymentSuccess": {
+		"title": "Payment Success Page",
+		"desc": "Please wait"
+	},
+	"techWorks": {
+		"title": "Maintenance in progress"
+	},
+	"gift": {
+		"loading": {
+			"title": "Unpacking your gift",
+			"desc": "Please wait until your gift link is applied"
+		},
+		"received": {
+			"title": "All set",
+			"desc": "You have received your gift"
+		},
+		"autoDownloadLauncher": {
+			"title": "All set",
+			"desc": "Please open the file that was downloaded and enjoy your game!<br/> If your download didn't start, please <a href=\"/?autoDownloadLauncher=true\"><u>try again</u></a>"
+		}
+	},
+	"access": {
+		"title": "Access"
+	},
+	"game": {
+		"learnMore": "Learn more",
+		"website": "Website",
+		"subscribe": "Subscribe",
+		"gift": "Gift a friend",
+		"buy": "Buy now",
+		"play": "Play now",
+		"dashboard": "Dashboard",
+		"download": "Download",
+		"sale": "Sale",
+		"firstDays": "First {qty} days",
+		"firstMonth": "First month",
+		"month": "month",
+		"then": "then",
+		"activateTrial": "Activate trial",
+		"release": "Release date",
+		"modifications": "Modifications",
+		"modifier": "Modification",
+		"genre": "Genre",
+		"languages": "Languages",
+		"platform": "Platform",
+		"developer": "Developer",
+		"cloud": "Cloud",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "System requirements",
+			"minimal": "Minimal",
+			"recommended": "Recommended",
+			"os": "OS",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Network",
+			"storage": "Storage"
+		},
+		"news": "News",
+		"showMore": "Show more",
+		"screenshots": "Screenshots",
+		"videos": "Videos"
+	},
+	"home": {
+		"sliders": {
+			"learnMore": "Learn more",
+			"downloadNow": "Download Now"
+		},
+		"games": {
+			"title": "Games"
+		},
+		"news": {
+			"title": "News",
+			"moreNews": "More news"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Promocodes",
+		"personalInfo": "Personal info",
+		"myGames": "My Games"
+	},
+	"personalInfo": {
+		"mergeAccount": "Merge Long Tale Games account"
+	},
+	"subscription": {
+		"subscription": "Subscription",
+		"expirationDate": "Expiration date",
+		"canceled": "Canceled",
+		"unsubscribe": "Unsubscribe",
+		"confirmUnsubscribe": {
+			"submit": "Stop subscription",
+			"title": "Are you sure?"
+		},
+		"currentSubscription": "Current subscription",
+		"subscriptionGift": "Subscription gift",
+		"friendEmail": "Friend email",
+		"playerNotFound": "Player not found",
+		"enterEmail": "Enter email"
+	},
+	"promocodes": {
+		"title": "Enter promocode",
+		"desc": "Here you can activate a new promocode or view the history of previously activated promocodes on your account",
+		"activate": "Activate",
+		"inProcess": "In process",
+		"received": "Received",
+		"activated": "Activated",
+		"loadMore": "Load more",
+		"messages": {
+			"invalid": "Invalid promocode. Please, try again later or contact support",
+			"limited": "You have already used this promocode",
+			"alreadyUsed": "This promocode has already been used",
+			"internalError": "Something went wrong while applying this promocode. Please, try again later or contact support",
+			"alreadyHaveTrial": "You can only activate the trial period once",
+			"applied": "Promocode successfully applied"
+		}
+	}
+}

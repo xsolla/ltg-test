@@ -1,0 +1,222 @@
+{
+	"common": {
+		"404": "Không tìm thấy trang",
+		"500": "Vui lòng thử lại sau hoặc liên hệ với bộ phận hỗ trợ kỹ thuật",
+		"close": "Đóng",
+		"back": "Quay lại",
+		"next": "Tiếp",
+		"somethingWentWrong": "Đã xảy ra lỗi",
+		"oops": "Rất tiếc...",
+		"haveToLogIn": "Bạn phải đăng nhập trước"
+	},
+	"privacyPolicyConfirmation": {
+		"title": "Xác nhận Chính sách quyền riêng tư",
+		"desc": "Bằng việc đánh dấu vào các ô này, bạn xác nhận rằng bạn đã đọc và hoàn toàn hiểu Điều khoản dịch vụ và Chính sách quyền riêng tư của LTG",
+		"privacyAndCookiesPolicy": "Chính sách quyền riêng tư và cookie",
+		"termsOfService": "Điều khoản dịch vụ",
+		"submit": "OK"
+	},
+	"cookies": {
+		"message": "Chúng tôi sử dụng cookie trên trang web này để cải thiện trải nghiệm người dùng cho bạn. Để xem tổng quan về tất cả cookie chúng tôi sử dụng, vui lòng xem phần cài đặt cá nhân của bạn.",
+		"customize": "Tùy chỉnh",
+		"accept": "Chấp nhận",
+		"decline": "Từ chối"
+	},
+	"menu": {
+		"home": "Trang chủ",
+		"games": "Game",
+		"news": "Tin tức",
+		"forum": "Diễn đàn",
+		"support": "Hỗ trợ",
+		"login": "Đăng nhập",
+		"download": "Tải về ngay",
+		"profile": "Hồ sơ",
+		"logout": "Đăng xuất"
+	},
+	"footer": {
+		"allRightsReserved": "Bảo lưu mọi quyền.",
+		"termsOfService": "Điều khoản dịch vụ",
+		"privacyAndCookiesPolicy": "Chính sách quyền riêng tư và cookie",
+		"aboutLongTaleGames": "Về LTG"
+	},
+	"auth": {
+		"title": "Ủy quyền",
+		"desc": "Ủy quyền bằng Tài khoản Xsolla là cách đơn giản và bảo mật để đắm mình vào LTG Multiverse. Dữ liệu cá nhân của bạn sẽ được bảo mật!",
+		"tip": "Để biết thêm thông tin về Tài khoản Xsolla, hãy xem Hướng dẫn sử dụng",
+		"guide": "Hướng dẫn sử dụng"
+	},
+	"news": {
+		"showMore": "Xem thêm",
+		"readMore": "Đọc thêm",
+		"allNews": "Tất cả tin tức",
+		"relatedNews": "Tin tức liên quan"
+	},
+	"paymentSuccess": {
+		"title": "Trang thanh toán thành công",
+		"desc": "Vui lòng chờ"
+	},
+	"techWorks": {
+		"title": "Đang bảo trì"
+	},
+	"gift": {
+		"loading": {
+			"title": "Đang mở gói quà của bạn",
+			"desc": "Vui lòng chờ đến khi liên kết quà của bạn được áp dụng"
+		},
+		"received": {
+			"title": "Đã xong",
+			"desc": "Bạn đã nhận quà"
+		},
+		"autoDownloadLauncher": {
+			"title": "Đã xong",
+			"desc": "Vui lòng mở tệp đã tải xuống và tận hưởng trò chơi của bạn! <br/> Nếu việc tải xuống không bắt đầu, vui lòng <a href=\"/?autoDownloadLauncher=true\"><u>thử lại</u></a>"
+		}
+	},
+	"access": {
+		"title": "Trang truy cập"
+	},
+	"game": {
+		"learnMore": "Tìm hiểu thêm",
+		"website": "Trang web",
+		"subscribe": "Đăng ký",
+		"gift": "Tặng quà cho bạn",
+		"buy": "Mua ngay",
+		"play": "Chơi ngay",
+		"dashboard": "Bảng điều khiển",
+		"download": "Tải về",
+		"sale": "Giảm giá",
+		"release": "Ngày phát hành",
+		"modifications": "Sửa đổi",
+		"genre": "Thể loại",
+		"languages": "Ngôn ngữ",
+		"platform": "Nền tảng",
+		"developer": "Nhà phát triển",
+		"cloud": "Đám mây",
+		"nft": "NFT",
+		"html5": "HTML5",
+		"system": {
+			"title": "Yêu cầu về hệ thống",
+			"minimal": "Tối thiểu",
+			"recommended": "Khuyến nghị",
+			"os": "HĐH",
+			"cpu": "CPU",
+			"ram": "RAM",
+			"gpu": "GPU",
+			"directx": "DirectX",
+			"network": "Mạng",
+			"storage": "Dung lượng lưu trữ"
+		},
+		"news": "Tin tức",
+		"showMore": "Xem thêm",
+		"screenshots": "Ảnh chụp màn hình",
+		"videos": "Video",
+		"modifier": "Sửa đổi",
+		"firstDays": "{qty} ngày đầu",
+		"firstMonth": "Tháng đầu",
+		"month": "tháng",
+		"then": "sau đó",
+		"activateTrial": "Kích hoạt dùng thử"
+	},
+	"home": {
+		"games": {
+			"title": "Game"
+		},
+		"sliders": {
+			"learnMore": "Tìm hiểu thêm",
+			"downloadNow": "Tải về ngay"
+		},
+		"news": {
+			"title": "Tin tức",
+			"moreNews": "Tin tức khác"
+		},
+		"about": {
+			"title": "A Home for Legendary Games",
+			"desc": "Where new games are brought to life, classic games are reimagined, and players can find their next adventure",
+			"bestGames": {
+				"title": "Modern takes on classic titles",
+				"desc": "Rediscover former favorites that we've updated with innovative ideas to ensure they continue to keep their original charm."
+			},
+			"bestExperience": {
+				"title": "A platform for rising stars",
+				"desc": "Dive into new game releases we've brought to life that captivate your attention and inspire you to replay them time and time again."
+			},
+			"bestFriends": {
+				"title": "Commitment to community",
+				"desc": "Join a community dedicated to shaping the future of gaming. We're not just here to listen, your thoughts and experiences are the catalysts for crafting unforgettable games."
+			}
+		}
+	},
+	"profileSidebar": {
+		"promocodes": "Mã khuyến mãi",
+		"personalInfo": "Thông tin cá nhân",
+		"myGames": "Game của tôi"
+	},
+	"personalInfo": {
+		"mergeAccount": "Hợp nhất tài khoản Long Tale Games"
+	},
+	"subscription": {
+		"expirationDate": "Ngày hết hạn",
+		"canceled": "Đã hủy",
+		"unsubscribe": "Hủy đăng ký",
+		"confirmUnsubscribe": {
+			"submit": "Dừng đăng ký",
+			"title": "Bạn có chắc không?"
+		},
+		"currentSubscription": "Gói đăng ký hiện tại",
+		"subscriptionGift": "Quà tặng gói đăng ký",
+		"friendEmail": "Email bạn bè",
+		"subscription": "Gói đăng ký",
+		"playerNotFound": "Không tìm thấy người dùng",
+		"enterEmail": "Nhập email"
+	},
+	"promocodes": {
+		"title": "Nhập mã khuyến mãi",
+		"desc": "Tại đây, bạn có thể kích hoạt mã khuyến mãi mới hoặc xem lịch sử mã khuyến mãi mà tài khoản của bạn đã kích hoạt trước đó",
+		"activate": "Kích hoạt",
+		"inProcess": "Đang kích hoạt",
+		"received": "Đã nhận",
+		"activated": "Đã kích hoạt",
+		"messages": {
+			"invalid": "Mã khuyến mãi không hợp lệ. Vui lòng thử lại sau hoặc liên hệ với bộ phận hỗ trợ",
+			"limited": "Bạn đã sử dụng mã khuyến mãi này rồi",
+			"alreadyUsed": "Mã khuyến mãi này đã được sử dụng rồi",
+			"internalError": "Đã xảy ra lỗi trong khi áp dụng mã khuyến mãi này. Vui lòng thử lại sau hoặc liên hệ với bộ phận hỗ trợ",
+			"alreadyHaveTrial": "Bạn chỉ có thể kích hoạt thời hạn chơi thử một lần",
+			"applied": "Đã áp dụng mã khuyến mãi thành công"
+		},
+		"loadMore": "Tải thêm"
+	},
+	"platforms": {
+		"pc": "Máy tính",
+		"xbox": "XBOX",
+		"ps4": "PS4",
+		"ps5": "PS5",
+		"android": "Android",
+		"ios": "iOS",
+		"windows": "Windows",
+		"linux": "Linux"
+	},
+	"genres": {
+		"indie": "Indie",
+		"action": "Hành động",
+		"rpg": "RPG",
+		"simulation": "Mô phỏng",
+		"action-adventure": "Hành động phiêu lưu",
+		"adventure": "Phiêu lưu",
+		"puzzle": "Giải đố",
+		"strategy": "Chiến lược",
+		"sports": "Thể thao",
+		"mmo": "MMO",
+		"horror": "Kinh dị",
+		"casino": "Casino",
+		"casual": "Phổ thông"
+	},
+	"ban": {
+		"title": "Xác nhận cấm người dùng",
+		"permanent": "Bạn đã bị cấm vĩnh viễn",
+		"until": "Bạn bị cấm cho đến",
+		"selectError": "Đã xảy ra lỗi",
+		"tip": "Bạn đã dừng phạm sai lầm",
+		"submit": "OK"
+	}
+}
