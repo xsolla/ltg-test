@@ -14,7 +14,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 		console.log('showMetaframe2', showMetaframe);
 		const metaframeScript = document.createElement('script');
 
-		metaframeScript.src = `https://cdn.xsolla.net/metaframe-web-wallet-widget-prod/container/${config.METAFRAME_VERSION}/metaframe.js`;
+		metaframeScript.src = `https://cdn.xsolla.net/metaframe-web-wallet-widget-prod/container/v1.3.4/metaframe.js`;
 
 		const { mobile } = useMobileTablet()
 
